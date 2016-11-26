@@ -4,6 +4,8 @@ FROM gitlab/gitlab-runner:alpine
 MAINTAINER Instrumentisto Team <developer@instrumentisto.com>
 
 
+RUN ln -s /usr/bin/gitlab-runner /usr/bin/gitlab-runner-helper
+
 RUN apk add --update --no-cache \
             tini \
             make \

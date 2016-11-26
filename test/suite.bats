@@ -46,12 +46,12 @@
 }
 
 
-@test "contains gitlab-runner" {
-  run docker run --rm $IMAGE which gitlab-runner
+@test "contains gitlab-runner-helper" {
+  run docker run --rm $IMAGE which gitlab-runner-helper
   [ "$status" -eq 0 ]
 }
 
-@test "gitlab-runner runs ok" {
-  run docker run --rm $IMAGE gitlab-runner --help
+@test "gitlab-runner-helper runs ok" {
+  run docker run --rm $IMAGE gitlab-runner-helper --help
   [ "$status" -eq 0 ]
 }

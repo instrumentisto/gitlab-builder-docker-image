@@ -13,8 +13,8 @@
 
 
 IMAGE_NAME := instrumentisto/gitlab-builder
-VERSION ?= 0.0.1
-TAGS ?= 0.0.1,latest
+VERSION ?= 0.0.2
+TAGS ?= 0.0.2,latest
 
 no-cache ?= no
 
