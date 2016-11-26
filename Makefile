@@ -96,4 +96,14 @@ post-push-hook:
 
 
 
-.PHONY: image tags push release post-push-hook
+# Run tests for Docker image.
+#
+# Usage:
+#	make test [VERSION=]
+
+test:
+	IMAGE=$(IMAGE_NAME):$(VERSION) ./test/bats/bats test/suite.bats
+
+
+
+.PHONY: image tags push release post-push-hook test

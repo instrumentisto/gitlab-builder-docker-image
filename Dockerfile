@@ -1,3 +1,4 @@
+# https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/dockerfiles/alpine/Dockerfile
 FROM gitlab/gitlab-runner:alpine
 
 MAINTAINER Instrumentisto Team <developer@instrumentisto.com>
