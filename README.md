@@ -1,6 +1,7 @@
 GitLab Builder Docker image
 ===========================
 
+[![GitHub release](https://img.shields.io/github/release/instrumentisto/gitlab-builder-docker-image.svg)](https://hub.docker.com/r/instrumentisto/gitlab-builder/tags)
 [![Build Status](https://travis-ci.org/instrumentisto/gitlab-builder-docker-image.svg?branch=master)](https://travis-ci.org/instrumentisto/gitlab-builder-docker-image)
 [![Docker Pulls](https://img.shields.io/docker/pulls/instrumentisto/gitlab-builder.svg)](https://hub.docker.com/r/instrumentisto/gitlab-builder)
 [![GitHub link](https://img.shields.io/badge/github-link-blue.svg)](https://github.com/instrumentisto/gitlab-builder-docker-image)
