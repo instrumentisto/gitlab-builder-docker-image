@@ -1,5 +1,7 @@
 FROM gitlab/gitlab-runner:alpine
 
+MAINTAINER Instrumentisto Team <developer@instrumentisto.com>
+
 
 RUN apk add --update --no-cache \
             tini \
