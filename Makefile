@@ -101,9 +101,30 @@ post-push-hook:
 # Usage:
 #	make test [VERSION=]
 
-test:
+test: deps-test
 	IMAGE=$(IMAGE_NAME):$(VERSION) ./test/bats/bats test/suite.bats
 
 
 
-.PHONY: image tags push release post-push-hook test
+# Resolve project dependencies for running tests.
+#
+# Usage:
+#	make deps-test [BATS_VER=]
+
+BATS_VER ?= 0.4.0
+
+deps-test:
+ifeq ($(wildcard $(PWD)/test/bats),)
+	mkdir -p $(PWD)/test/bats/vendor
+	wget https://github.com/sstephenson/bats/archive/v$(BATS_VER).tar.gz \
+		-O $(PWD)/test/bats/vendor/bats.tar.gz
+	tar -xzf $(PWD)/test/bats/vendor/bats.tar.gz \
+		-C $(PWD)/test/bats/vendor
+	rm -f $(PWD)/test/bats/vendor/bats.tar.gz
+	ln -s $(PWD)/test/bats/vendor/bats-$(BATS_VER)/libexec/* \
+		$(PWD)/test/bats/
+endif
+
+
+
+.PHONY: image tags push release post-push-hook test deps-test
