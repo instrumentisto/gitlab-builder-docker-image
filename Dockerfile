@@ -9,6 +9,7 @@ RUN ln -s /usr/bin/gitlab-runner /usr/bin/gitlab-runner-helper
 RUN apk add --update --no-cache \
             tini \
             make \
+            rsync \
             docker \
  && rm -rf /var/cache/apk/*
 

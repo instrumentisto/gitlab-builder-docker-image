@@ -35,6 +35,17 @@
 }
 
 
+@test "contains rsync" {
+  run docker run --rm $IMAGE which rsync
+  [ "$status" -eq 0 ]
+}
+
+@test "rsync runs ok" {
+  run docker run --rm $IMAGE rsync --help
+  [ "$status" -eq 0 ]
+}
+
+
 @test "contains docker" {
   run docker run --rm $IMAGE which docker
   [ "$status" -eq 0 ]
