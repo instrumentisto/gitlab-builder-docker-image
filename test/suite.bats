@@ -46,6 +46,17 @@
 }
 
 
+@test "contains curl" {
+  run docker run --rm $IMAGE which curl
+  [ "$status" -eq 0 ]
+}
+
+@test "curl runs ok" {
+  run docker run --rm $IMAGE curl --help
+  [ "$status" -eq 0 ]
+}
+
+
 @test "contains docker" {
   run docker run --rm $IMAGE which docker
   [ "$status" -eq 0 ]

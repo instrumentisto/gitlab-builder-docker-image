@@ -11,6 +11,7 @@ RUN apk add --update --no-cache \
             make \
             rsync \
             docker \
+            curl \
  && rm -rf /var/cache/apk/*
 
 
