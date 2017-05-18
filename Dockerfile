@@ -11,7 +11,10 @@ RUN apk add --update --no-cache \
             make \
             rsync \
             docker \
+            py-pip \
             curl \
+ && pip install --no-cache-dir docker-compose \
+ && pip uninstall pip -y \
  && rm -rf /var/cache/apk/*
 
 

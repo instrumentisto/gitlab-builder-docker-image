@@ -85,6 +85,17 @@
 }
 
 
+@test "contains docker-compose" {
+  run docker run --rm $IMAGE which docker-compose
+  [ "$status" -eq 0 ]
+}
+
+@test "docker-compose runs ok" {
+  run docker run --rm $IMAGE docker-compose --help
+  [ "$status" -eq 0 ]
+}
+
+
 @test "contains gitlab-runner-helper" {
   run docker run --rm $IMAGE which gitlab-runner-helper
   [ "$status" -eq 0 ]

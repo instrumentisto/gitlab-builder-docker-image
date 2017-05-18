@@ -20,7 +20,7 @@ environment for __any__ builds.
 The idea is to automate any build steps with `Makefile`, and implement them
 via running commands in Docker containers. This makes build to be environment
 independent. As the result, build environment requires to have only a minimal
-set of general purpose tools: `bash`, `git`, `make`, `docker`.
+set of general purpose tools: `bash`, `git`, `make`, `docker`, `docker-compose`.
 
 This image contains `git` and GitLab Runner binaries as far as [Kubernetes
 executor of GitLab Runner requires them][2].
