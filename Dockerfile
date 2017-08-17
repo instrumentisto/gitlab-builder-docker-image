@@ -6,7 +6,9 @@ MAINTAINER Instrumentisto Team <developer@instrumentisto.com>
 
 RUN ln -s /usr/bin/gitlab-runner /usr/bin/gitlab-runner-helper
 
-RUN apk add --update --no-cache \
+RUN apk update \
+ && apk upgrade \
+ && apk add --no-cache \
             tini \
             make \
             rsync \
