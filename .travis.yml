@@ -6,6 +6,7 @@ services:
 
 before_script:
   - make image no-cache=yes VERSION=test
+  - make deps.bats
 
 script:
   - make test VERSION=test
