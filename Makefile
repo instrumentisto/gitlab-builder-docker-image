@@ -83,12 +83,10 @@ release: | image tags push
 
 post-push-hook:
 	@mkdir -p hooks/
-	docker run --rm -i \
-	           -v $(PWD)/post_push.j2:/data/post_push.j2:ro \
-	           -e TEMPLATE=post_push.j2 \
-		pinterb/jinja2 \
-			image_tags='$(TAGS)' \
-		> $(PWD)/hooks/post_push
+	docker run --rm  -v "$(PWD)/post_push.tmpl.php":/post_push.php:ro \
+		php:alpine php -f /post_push.php -- \
+			--image_tags='$(TAGS)' \
+		> hooks/post_push
 
 
 
