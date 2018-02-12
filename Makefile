@@ -13,8 +13,8 @@
 
 
 IMAGE_NAME := instrumentisto/gitlab-builder
-VERSION ?= 0.3.0
-TAGS ?= 0.3.0,latest
+VERSION ?= 0.4.0-docker18.02.0-compose1.19.0-kubectl1.9.3-helm2.8.1
+TAGS ?= 0.4.0-docker18.02.0-compose1.19.0-kubectl1.9.3-helm2.8.1,0.4.0,latest
 
 
 comma := ,
@@ -99,7 +99,7 @@ post-push-hook:
 #	make test [VERSION=<image-version>]
 
 test: deps.bats
-	IMAGE=$(IMAGE_NAME):$(VERSION) ./test/bats/bats test/suite.bats
+	IMAGE=$(IMAGE_NAME):$(VERSION) test/bats/bats test/suite.bats
 
 
 
@@ -117,7 +117,7 @@ ifeq ($(wildcard test/bats),)
 		https://github.com/sstephenson/bats/archive/v$(BATS_VER).tar.gz
 	tar -xzf test/bats/vendor/bats.tar.gz -C test/bats/vendor/
 	@rm -f test/bats/vendor/bats.tar.gz
-	ln -s test/bats/vendor/bats-$(BATS_VER)/libexec/* test/bats/
+	ln -s $(PWD)/test/bats/vendor/bats-$(BATS_VER)/libexec/* test/bats/
 endif
 
 

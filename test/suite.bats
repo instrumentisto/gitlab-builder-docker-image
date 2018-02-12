@@ -52,17 +52,6 @@
 }
 
 
-@test "contains rsync" {
-  run docker run --rm $IMAGE which rsync
-  [ "$status" -eq 0 ]
-}
-
-@test "rsync runs ok" {
-  run docker run --rm $IMAGE rsync --help
-  [ "$status" -eq 0 ]
-}
-
-
 @test "contains curl" {
   run docker run --rm $IMAGE which curl
   [ "$status" -eq 0 ]
@@ -96,12 +85,23 @@
 }
 
 
-@test "contains gitlab-runner-helper" {
-  run docker run --rm $IMAGE which gitlab-runner-helper
+@test "contains kubectl" {
+  run docker run --rm $IMAGE which kubectl
   [ "$status" -eq 0 ]
 }
 
-@test "gitlab-runner-helper runs ok" {
-  run docker run --rm $IMAGE gitlab-runner-helper --help
+@test "kubectl runs ok" {
+  run docker run --rm $IMAGE kubectl --help
+  [ "$status" -eq 0 ]
+}
+
+
+@test "contains helm" {
+  run docker run --rm $IMAGE which helm
+  [ "$status" -eq 0 ]
+}
+
+@test "helm runs ok" {
+  run docker run --rm $IMAGE helm --help
   [ "$status" -eq 0 ]
 }
