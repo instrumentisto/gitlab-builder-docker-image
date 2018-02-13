@@ -10,6 +10,7 @@ RUN apk update \
  && apk add --no-cache \
             tini ca-certificates \
             bash git make curl \
+            rsync \
  && update-ca-certificates \
  && rm -rf /var/cache/apk/*
 
