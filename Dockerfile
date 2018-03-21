@@ -53,6 +53,12 @@ RUN curl -fL -o /usr/local/bin/docker-compose \
  && apk add --no-cache /tmp/glibc-$latestReleaseTag.apk \
  && ln -s /lib/libz.so.1 /usr/glibc-compat/lib/ \
  && ln -s /lib/libc.musl-x86_64.so.1 /usr/glibc-compat/lib/ \
+    \
+ # Install libgcc_s.so.1 for pthread_cancel to work, see:
+ # https://github.com/instrumentisto/gitlab-builder-docker-image/issues/6
+ && apk add --update --no-cache libgcc \
+ && ln -s /usr/lib/libgcc_s.so.1 /usr/glibc-compat/lib/ \
+    \
  && rm -rf /var/cache/apk/* \
            /tmp/*
 
