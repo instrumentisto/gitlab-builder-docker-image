@@ -17,7 +17,7 @@ RUN apk update \
 
 # Install Docker CLI.
 RUN curl -fL -o /tmp/docker.tar.gz \
-         https://download.docker.com/linux/static/edge/x86_64/docker-18.02.0-ce.tgz \
+         https://download.docker.com/linux/static/edge/x86_64/docker-18.03.0-ce.tgz \
  && tar -xvf /tmp/docker.tar.gz -C /tmp/ \
     \
  && chmod +x /tmp/docker/docker \
@@ -25,19 +25,19 @@ RUN curl -fL -o /tmp/docker.tar.gz \
     \
  && mkdir -p /usr/local/share/doc/docker/ \
  && curl -fL -o /usr/local/share/doc/docker/LICENSE \
-         https://raw.githubusercontent.com/docker/docker-ce/v18.02.0-ce/components/cli/LICENSE \
+         https://raw.githubusercontent.com/docker/docker-ce/v18.03.0-ce/components/cli/LICENSE \
     \
  && rm -rf /tmp/*
 
 
 # Install Docker Compose CLI.
 RUN curl -fL -o /usr/local/bin/docker-compose \
-         https://github.com/docker/compose/releases/download/1.20.0/docker-compose-Linux-x86_64 \
+         https://github.com/docker/compose/releases/download/1.20.1/docker-compose-Linux-x86_64 \
  && chmod +x /usr/local/bin/docker-compose \
     \
  && mkdir -p /usr/local/share/doc/docker-compose/ \
  && curl -fL -o /usr/local/share/doc/docker-compose/LICENSE \
-         https://raw.githubusercontent.com/docker/compose/1.20.0/LICENSE \
+         https://raw.githubusercontent.com/docker/compose/1.20.1/LICENSE \
     \
  # Download glibc compatible musl library for Docker Compose, see:
  # https://github.com/docker/compose/pull/3856
