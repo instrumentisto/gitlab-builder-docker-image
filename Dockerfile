@@ -32,12 +32,12 @@ RUN curl -fL -o /tmp/docker.tar.gz \
 
 # Install Docker Compose CLI.
 RUN curl -fL -o /usr/local/bin/docker-compose \
-         https://github.com/docker/compose/releases/download/1.21.1/docker-compose-Linux-x86_64 \
+         https://github.com/docker/compose/releases/download/1.21.2/docker-compose-Linux-x86_64 \
  && chmod +x /usr/local/bin/docker-compose \
     \
  && mkdir -p /usr/local/share/doc/docker-compose/ \
  && curl -fL -o /usr/local/share/doc/docker-compose/LICENSE \
-         https://raw.githubusercontent.com/docker/compose/1.21.1/LICENSE \
+         https://raw.githubusercontent.com/docker/compose/1.21.2/LICENSE \
     \
  # Download glibc compatible musl library for Docker Compose, see:
  # https://github.com/docker/compose/pull/3856
