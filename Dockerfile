@@ -71,7 +71,7 @@ RUN curl -fL -o /usr/local/bin/kubectl \
 
 # Install Kubernetes Helm.
 RUN curl -fL -o /tmp/helm.tar.gz \
-         https://kubernetes-helm.storage.googleapis.com/helm-v2.9.0-linux-amd64.tar.gz  \
+         https://kubernetes-helm.storage.googleapis.com/helm-v2.9.1-linux-amd64.tar.gz  \
  && tar -xzf /tmp/helm.tar.gz -C /tmp/ \
     \
  && chmod +x /tmp/linux-amd64/helm \
