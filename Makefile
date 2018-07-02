@@ -100,7 +100,7 @@ post-push-hook:
 # Run Bats tests for Docker image.
 #
 # Documentation of Bats:
-#	https://github.com/sstephenson/bats
+#	https://github.com/bats-core/bats-core
 #
 # Usage:
 #	make test [VERSION=<image-version>]
