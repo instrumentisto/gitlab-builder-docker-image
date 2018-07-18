@@ -32,7 +32,7 @@ RUN curl -fL -o /tmp/docker.tar.gz \
 
 # Install Docker Compose CLI.
 RUN curl -fL -o /usr/local/bin/docker-compose \
-         https://github.com/docker/compose/releases/download/1.21.2/docker-compose-Linux-x86_64 \
+         https://github.com/docker/compose/releases/download/1.22.0/docker-compose-Linux-x86_64 \
  && chmod +x /usr/local/bin/docker-compose \
     \
  && mkdir -p /usr/local/share/doc/docker-compose/ \
