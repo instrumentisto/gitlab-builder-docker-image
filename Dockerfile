@@ -42,7 +42,7 @@ RUN curl -fL -o /usr/local/bin/docker-compose \
  # Download glibc compatible musl library for Docker Compose, see:
  # https://github.com/docker/compose/pull/3856
  && curl -fL -o /etc/apk/keys/sgerrand.rsa.pub \
-         https://raw.githubusercontent.com/sgerrand/alpine-pkg-glibc/master/sgerrand.rsa.pub \
+         https://alpine-pkgs.sgerrand.com/sgerrand.rsa.pub \
  && latestReleaseTag=$(\
         curl -s https://api.github.com/repos/sgerrand/alpine-pkg-glibc/releases/latest \
             | grep '"tag_name"' \
@@ -71,7 +71,7 @@ RUN curl -fL -o /usr/local/bin/kubectl \
 
 # Install Kubernetes Helm.
 RUN curl -fL -o /tmp/helm.tar.gz \
-         https://kubernetes-helm.storage.googleapis.com/helm-v2.9.1-linux-amd64.tar.gz  \
+         https://kubernetes-helm.storage.googleapis.com/helm-v2.10.0-linux-amd64.tar.gz  \
  && tar -xzf /tmp/helm.tar.gz -C /tmp/ \
     \
  && chmod +x /tmp/linux-amd64/helm \
