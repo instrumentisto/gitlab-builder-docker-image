@@ -37,7 +37,7 @@ RUN curl -fL -o /usr/local/bin/docker-compose \
     \
  && mkdir -p /usr/local/share/doc/docker-compose/ \
  && curl -fL -o /usr/local/share/doc/docker-compose/LICENSE \
-         https://raw.githubusercontent.com/docker/compose/1.21.2/LICENSE \
+         https://raw.githubusercontent.com/docker/compose/1.22.0/LICENSE \
     \
  # Download glibc compatible musl library for Docker Compose, see:
  # https://github.com/docker/compose/pull/3856
