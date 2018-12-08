@@ -65,13 +65,13 @@ RUN curl -fL -o /usr/local/bin/docker-compose \
 
 # Install Kubernetes CLI.
 RUN curl -fL -o /usr/local/bin/kubectl \
-         https://dl.k8s.io/release/v1.12.3/bin/linux/amd64/kubectl \
+         https://dl.k8s.io/release/v1.13.0/bin/linux/amd64/kubectl \
  && chmod +x /usr/local/bin/kubectl
 
 
 # Install Kubernetes Helm.
 RUN curl -fL -o /tmp/helm.tar.gz \
-         https://kubernetes-helm.storage.googleapis.com/helm-v2.11.0-linux-amd64.tar.gz  \
+         https://kubernetes-helm.storage.googleapis.com/helm-v2.12.0-linux-amd64.tar.gz  \
  && tar -xzf /tmp/helm.tar.gz -C /tmp/ \
     \
  && chmod +x /tmp/linux-amd64/helm \
