@@ -17,7 +17,7 @@ RUN apk update \
 
 # Install Docker CLI.
 RUN curl -fL -o /tmp/docker.tar.gz \
-         https://download.docker.com/linux/static/edge/x86_64/docker-18.09.0.tgz \
+         https://download.docker.com/linux/static/edge/x86_64/docker-18.09.1.tgz \
  && tar -xvf /tmp/docker.tar.gz -C /tmp/ \
     \
  && chmod +x /tmp/docker/docker \
@@ -25,7 +25,7 @@ RUN curl -fL -o /tmp/docker.tar.gz \
     \
  && mkdir -p /usr/local/share/doc/docker/ \
  && curl -fL -o /usr/local/share/doc/docker/LICENSE \
-         https://raw.githubusercontent.com/docker/docker-ce/v18.09.0/components/cli/LICENSE \
+         https://raw.githubusercontent.com/docker/docker-ce/v18.09.1/components/cli/LICENSE \
     \
  && rm -rf /tmp/*
 
@@ -65,7 +65,7 @@ RUN curl -fL -o /usr/local/bin/docker-compose \
 
 # Install Kubernetes CLI.
 RUN curl -fL -o /usr/local/bin/kubectl \
-         https://dl.k8s.io/release/v1.13.1/bin/linux/amd64/kubectl \
+         https://dl.k8s.io/release/v1.13.2/bin/linux/amd64/kubectl \
  && chmod +x /usr/local/bin/kubectl
 
 
