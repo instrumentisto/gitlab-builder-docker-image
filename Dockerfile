@@ -64,7 +64,7 @@ RUN curl -fL -o /usr/local/bin/docker-compose \
 
 # Install Kubernetes CLI.
 RUN curl -fL -o /usr/local/bin/kubectl \
-         https://dl.k8s.io/release/v1.14.3/bin/linux/amd64/kubectl \
+         https://dl.k8s.io/release/v1.15.0/bin/linux/amd64/kubectl \
  && chmod +x /usr/local/bin/kubectl
 
 
