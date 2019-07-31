@@ -12,8 +12,8 @@
 
 
 IMAGE_NAME := instrumentisto/gitlab-builder
-VERSION ?= 0.4.2-docker19.03.1-compose1.24.1-kubectl1.15.0-helm2.14.2
-TAGS ?= 0.4.2-docker19.03.1-compose1.24.1-kubectl1.15.0-helm2.14.2,0.4.2,0.4,latest
+VERSION ?= 0.4.2-docker19.03.1-compose1.24.1-kubectl1.15.0-helm2.14.3
+TAGS ?= 0.4.2-docker19.03.1-compose1.24.1-kubectl1.15.0-helm2.14.3,0.4.2,0.4,latest
 
 
 comma := ,
