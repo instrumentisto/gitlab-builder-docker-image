@@ -17,7 +17,7 @@ RUN apk update \
 
 # Install Docker CLI.
 RUN curl -fL -o /tmp/docker.tar.gz \
-         https://download.docker.com/linux/static/edge/x86_64/docker-19.03.1.tgz \
+         https://download.docker.com/linux/static/edge/x86_64/docker-19.03.2.tgz \
  && tar -xvf /tmp/docker.tar.gz -C /tmp/ \
     \
  && chmod +x /tmp/docker/docker \
@@ -25,7 +25,7 @@ RUN curl -fL -o /tmp/docker.tar.gz \
     \
  && mkdir -p /usr/local/share/doc/docker/ \
  && curl -fL -o /usr/local/share/doc/docker/LICENSE \
-         https://raw.githubusercontent.com/docker/docker-ce/v19.03.1/components/cli/LICENSE \
+         https://raw.githubusercontent.com/docker/docker-ce/v19.03.2/components/cli/LICENSE \
     \
  && rm -rf /tmp/*
 
