@@ -28,7 +28,16 @@ This approach allows to fix and use the same environment for any project's opera
 
 ## License
 
-This Docker image is licensed under [MIT license][91].
+[Docker CLI CE][10] is licensed under [Apache License 2.0][11].  
+[Docker Compose CLI][20] is licensed under [Apache License 2.0][21].  
+[Kubernetes CLI (`kubectl`)][30] is licensed under [Apache License 2.0][31].  
+[Helm][40] is licensed under [Apache License 2.0][41].
+
+As with all Docker images, these likely also contain other software which may be under other licenses (such as Bash, etc from the base distribution, along with any direct or indirect dependencies of the primary software being contained).
+
+As for any pre-built image usage, it is the image user's responsibility to ensure that any use of this image complies with any relevant licenses for all software contained within.
+
+The [sources][92] for producing `instrumentisto/gitlab-builder` Docker images are licensed under [Blue Oak Model License 1.0.0][91].
 
 
 
@@ -44,5 +53,19 @@ If you have any problems with or questions about this image, please contact us t
 
 
 [1]: https://docs.gitlab.com/ce/ci/docker/using_docker_images.html
+
+[10]: https://github.com/docker/docker-ce/blob/master/components/cli
+[11]: https://github.com/docker/docker-ce/blob/master/components/cli/LICENSE
+
+[20]: https://docs.docker.com/compose
+[21]: https://github.com/docker/compose/blob/master/LICENSE
+
+[30]: https://kubernetes.io/docs/reference/kubectl/overview
+[31]: https://github.com/kubernetes/kubernetes/blob/master/LICENSE
+
+[40]: https://helm.sh
+[41]: https://github.com/helm/helm/blob/master/LICENSE
+
 [90]: https://github.com/instrumentisto/gitlab-builder-docker-image/issues
 [91]: https://github.com/instrumentisto/gitlab-builder-docker-image/blob/master/LICENSE.md
+[92]: https://github.com/instrumentisto/gitlab-builder-docker-image
