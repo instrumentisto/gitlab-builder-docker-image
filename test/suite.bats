@@ -2,7 +2,9 @@
 
 
 @test "post_push hook is up-to-date" {
-  run sh -c "cat Makefile | grep 'TAGS ?= ' | cut -d ' ' -f 3"
+  run sh -c "make post-push-hook out=/dev/stdout | grep 'for tag in' \
+                                                 | cut -d '{' -f 2 \
+                                                 | cut -d '}' -f 1"
   [ "$status" -eq 0 ]
   [ ! "$output" = '' ]
   expected="$output"
@@ -115,4 +117,31 @@
 @test "helm runs ok" {
   run docker run --rm $IMAGE helm --help
   [ "$status" -eq 0 ]
+}
+
+
+@test "contains reg" {
+  run docker run --rm $IMAGE which reg
+  [ "$status" -eq 0 ]
+}
+
+@test "reg runs ok" {
+  run docker run --rm $IMAGE reg version
+  [ "$status" -eq 0 ]
+}
+
+@test "reg has correct version" {
+  run sh -c "grep 'ARG reg_ver=' Dockerfile | cut -d '=' -f2"
+  [ "$status" -eq 0 ]
+  [ ! "$output" = '' ]
+  expected="$output"
+
+  run docker run --rm $IMAGE sh -c "reg version | grep ' version     :' \
+                                                | cut -d ':' -f2 \
+                                                | cut -d 'v' -f2"
+  [ "$status" -eq 0 ]
+  [ ! "$output" = '' ]
+  actual="$output"
+
+  [ "$actual" = "$expected" ]
 }

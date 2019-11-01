@@ -1,15 +1,17 @@
 language: bash
+
 sudo: false
 
 services:
   - docker
 
 before_script:
-  - make image no-cache=yes VERSION=test
+  - make image no-cache=yes tag=test
   - make deps.bats
+  - docker pull php:alpine
 
 script:
-  - make test VERSION=test
+  - make test tag=test
 
 notifications:
   email:

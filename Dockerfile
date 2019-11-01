@@ -1,7 +1,11 @@
 # https://hub.docker.com/_/alpine/
 FROM alpine
 
-MAINTAINER Instrumentisto Team <developer@instrumentisto.com>
+ARG docker_ver=19.03.4
+ARG docker_compose_ver=1.24.1
+ARG kubectl_ver=1.16.2
+ARG helm_ver=2.15.2
+ARG reg_ver=0.16.0
 
 
 # Install Bash, make, cURL, Git.
@@ -17,7 +21,7 @@ RUN apk update \
 
 # Install Docker CLI.
 RUN curl -fL -o /tmp/docker.tar.gz \
-         https://download.docker.com/linux/static/edge/x86_64/docker-19.03.4.tgz \
+         https://download.docker.com/linux/static/edge/x86_64/docker-${docker_ver}.tgz \
  && tar -xvf /tmp/docker.tar.gz -C /tmp/ \
     \
  && chmod +x /tmp/docker/docker \
@@ -25,19 +29,19 @@ RUN curl -fL -o /tmp/docker.tar.gz \
     \
  && mkdir -p /usr/local/share/doc/docker/ \
  && curl -fL -o /usr/local/share/doc/docker/LICENSE \
-         https://raw.githubusercontent.com/docker/docker-ce/v19.03.4/components/cli/LICENSE \
+         https://raw.githubusercontent.com/docker/docker-ce/v${docker_ver}/components/cli/LICENSE \
     \
  && rm -rf /tmp/*
 
 
 # Install Docker Compose CLI.
 RUN curl -fL -o /usr/local/bin/docker-compose \
-         https://github.com/docker/compose/releases/download/1.24.1/docker-compose-Linux-x86_64 \
+         https://github.com/docker/compose/releases/download/${docker_compose_ver}/docker-compose-Linux-x86_64 \
  && chmod +x /usr/local/bin/docker-compose \
     \
  && mkdir -p /usr/local/share/doc/docker-compose/ \
  && curl -fL -o /usr/local/share/doc/docker-compose/LICENSE \
-         https://raw.githubusercontent.com/docker/compose/1.24.1/LICENSE \
+         https://raw.githubusercontent.com/docker/compose/${docker_compose_ver}/LICENSE \
     \
  # Download glibc compatible musl library for Docker Compose, see:
  # https://github.com/docker/compose/pull/3856
@@ -64,13 +68,13 @@ RUN curl -fL -o /usr/local/bin/docker-compose \
 
 # Install Kubernetes CLI.
 RUN curl -fL -o /usr/local/bin/kubectl \
-         https://dl.k8s.io/release/v1.16.2/bin/linux/amd64/kubectl \
+         https://dl.k8s.io/release/v${kubectl_ver}/bin/linux/amd64/kubectl \
  && chmod +x /usr/local/bin/kubectl
 
 
 # Install Kubernetes Helm.
 RUN curl -fL -o /tmp/helm.tar.gz \
-         https://kubernetes-helm.storage.googleapis.com/helm-v2.15.2-linux-amd64.tar.gz  \
+         https://kubernetes-helm.storage.googleapis.com/helm-v${helm_ver}-linux-amd64.tar.gz \
  && tar -xzf /tmp/helm.tar.gz -C /tmp/ \
     \
  && chmod +x /tmp/linux-amd64/helm \
@@ -80,6 +84,16 @@ RUN curl -fL -o /tmp/helm.tar.gz \
  && mv /tmp/linux-amd64/LICENSE /usr/local/share/doc/helm/ \
     \
  && rm -rf /tmp/*
+
+
+# Install Docker Registry CLI.
+RUN curl -fL -o /usr/local/bin/reg \
+         https://github.com/genuinetools/reg/releases/download/v${reg_ver}/reg-linux-amd64 \
+ && chmod +x /usr/local/bin/reg \
+    \
+ && mkdir -p /usr/local/share/doc/reg/ \
+ && curl -fL -o /usr/local/share/doc/reg/LICENSE \
+          https://github.com/genuinetools/reg/blob/v${reg_ver}/LICENSE
 
 
 ENTRYPOINT ["/sbin/tini", "--"]

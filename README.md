@@ -32,6 +32,7 @@ This approach allows to fix and use the same environment for any project's opera
 [Docker Compose CLI][20] is licensed under [Apache License 2.0][21].  
 [Kubernetes CLI (`kubectl`)][30] is licensed under [Apache License 2.0][31].  
 [Helm][40] is licensed under [Apache License 2.0][41].
+[Docker Registry CLI][50] is licensed under [MIT License][51].
 
 As with all Docker images, these likely also contain other software which may be under other licenses (such as Bash, etc from the base distribution, along with any direct or indirect dependencies of the primary software being contained).
 
@@ -65,6 +66,9 @@ If you have any problems with or questions about this image, please contact us t
 
 [40]: https://helm.sh
 [41]: https://github.com/helm/helm/blob/master/LICENSE
+
+[50]: https://github.com/genuinetools/reg
+[51]: https://github.com/genuinetools/reg/blob/master/LICENSE
 
 [90]: https://github.com/instrumentisto/gitlab-builder-docker-image/issues
 [91]: https://github.com/instrumentisto/gitlab-builder-docker-image/blob/master/LICENSE.md
