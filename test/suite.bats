@@ -109,13 +109,45 @@
 }
 
 
-@test "contains helm" {
+@test "contains helm3" {
+  run docker run --rm $IMAGE which helm3
+  [ "$status" -eq 0 ]
+}
+
+@test "helm3 runs ok" {
+  run docker run --rm $IMAGE helm3 --help
+  [ "$status" -eq 0 ]
+}
+
+@test "contains helm2" {
+  run docker run --rm $IMAGE which helm2
+  [ "$status" -eq 0 ]
+}
+
+@test "helm2 runs ok" {
+  run docker run --rm $IMAGE helm2 --help
+  [ "$status" -eq 0 ]
+}
+
+@test "contains helm wrapper" {
   run docker run --rm $IMAGE which helm
   [ "$status" -eq 0 ]
 }
 
-@test "helm runs ok" {
+@test "helm wrapper runs ok" {
   run docker run --rm $IMAGE helm --help
+  [ "$status" -eq 0 ]
+}
+
+@test "helm wrapper uses helm2 by default" {
+  run docker run --rm $IMAGE sh -c \
+    "helm version -c | grep '{SemVer:\"v2.'"
+  [ "$status" -eq 0 ]
+}
+
+@test "helm wrapper uses helm3 with DEFAULT_HELM_VER=3" {
+  run docker run --rm -e DEFAULT_HELM_VER=3 $IMAGE sh -c \
+    "helm version | grep '{Version:\"v3.'"
   [ "$status" -eq 0 ]
 }
 

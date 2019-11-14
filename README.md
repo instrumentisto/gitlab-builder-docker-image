@@ -26,6 +26,20 @@ This approach allows to fix and use the same environment for any project's opera
 
 
 
+## Helm usage
+
+At the moment the image contains two versions of `helm`:
+- `helm2` for [Helm v2](https://v2.helm.sh/docs);
+- `helm3` for [Helm v3](https://helm.sh/docs).
+
+They can be used either directly via `helm2`/`helm3` binaries, or via `helm` shim which uses internally `helm2` by default, but may be switched to `helm3` via providing `DEFAULT_HELM_VER=3` env var to a container:
+```bash
+docker run --rm -e DEFAULT_HELM_VER=3 instrumentisto/gitlab-builder helm version
+```
+
+
+
+
 ## License
 
 [Docker CLI CE][10] is licensed under [Apache License 2.0][11].  

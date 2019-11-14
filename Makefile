@@ -23,13 +23,15 @@ KUBECTL_VER ?= $(strip \
 	$(shell grep 'ARG kubectl_ver=' Dockerfile | cut -d '=' -f2))
 HELM_VER ?= $(strip \
 	$(shell grep 'ARG helm_ver=' Dockerfile | cut -d '=' -f2))
+HELM2_VER ?= $(strip \
+	$(shell grep 'ARG helm2_ver=' Dockerfile | cut -d '=' -f2))
 REG_VER ?= $(strip \
 	$(shell grep 'ARG reg_ver=' Dockerfile | cut -d '=' -f2))
 
 IMAGE_NAME := instrumentisto/gitlab-builder
-TAGS ?= 0.5.0-docker$(DOCKER_VER)-compose$(DOCKER_COMPOSE_VER)-kubectl$(KUBECTL_VER)-helm$(HELM_VER)-reg$(REG_VER) \
-        0.5.0 \
-        0.5 \
+TAGS ?= 0.6.0-docker$(DOCKER_VER)-compose$(DOCKER_COMPOSE_VER)-kubectl$(KUBECTL_VER)-helm$(HELM_VER)-helm$(HELM2_VER)-reg$(REG_VER) \
+        0.6.0 \
+        0.6 \
         latest
 VERSION ?= $(word 1,$(subst $(comma), ,$(TAGS)))
 
@@ -43,6 +45,7 @@ VERSION ?= $(word 1,$(subst $(comma), ,$(TAGS)))
 #	           [DOCKER_COMPOSE_VER=<docker-compose-version>]
 #	           [KUBECTL_VER=<kubectl-version>]
 #	           [HELM_VER=<helm-version>]
+#	           [HELM2_VER=<helm2-version>]
 #	           [REG_VER=<reg-version>]
 
 image-tag = $(if $(call eq,$(tag),),$(VERSION),$(tag))
@@ -54,6 +57,7 @@ image:
 		--build-arg docker_compose_ver=$(DOCKER_COMPOSE_VER) \
 		--build-arg kubectl_ver=$(KUBECTL_VER) \
 		--build-arg helm_ver=$(HELM_VER) \
+		--build-arg helm2_ver=$(HELM2_VER) \
 		--build-arg reg_ver=$(REG_VER) \
 		-t $(IMAGE_NAME):$(image-tag) .
 
@@ -105,6 +109,7 @@ endef
 #	             [DOCKER_COMPOSE_VER=<docker-compose-version>]
 #	             [KUBECTL_VER=<kubectl-version>]
 #	             [HELM_VER=<helm-version>]
+#	             [HELM2_VER=<helm2-version>]
 #	             [REG_VER=<reg-version>]
 
 release:
