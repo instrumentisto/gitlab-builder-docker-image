@@ -45,7 +45,7 @@ docker run --rm -e DEFAULT_HELM_VER=3 instrumentisto/gitlab-builder helm version
 [Docker CLI CE][10] is licensed under [Apache License 2.0][11].  
 [Docker Compose CLI][20] is licensed under [Apache License 2.0][21].  
 [Kubernetes CLI (`kubectl`)][30] is licensed under [Apache License 2.0][31].  
-[Helm][40] is licensed under [Apache License 2.0][41].
+[Helm][40] is licensed under [Apache License 2.0][41].  
 [Docker Registry CLI][50] is licensed under [MIT License][51].
 
 As with all Docker images, these likely also contain other software which may be under other licenses (such as Bash, etc from the base distribution, along with any direct or indirect dependencies of the primary software being contained).
