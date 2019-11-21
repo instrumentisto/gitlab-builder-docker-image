@@ -6,7 +6,7 @@ ARG docker_compose_ver=1.25.0
 ARG kubectl_ver=1.16.3
 ARG helm_ver=3.0.0
 ARG helm2_ver=2.16.1
-ARG reg_ver=0.16.0
+ARG reg_ver=0.16.1
 
 
 # Install Bash, make, cURL, Git.
