@@ -29,9 +29,9 @@ REG_VER ?= $(strip \
 	$(shell grep 'ARG reg_ver=' Dockerfile | cut -d '=' -f2))
 
 IMAGE_NAME := instrumentisto/gitlab-builder
-TAGS ?= 0.6.0-docker$(DOCKER_VER)-compose$(DOCKER_COMPOSE_VER)-kubectl$(KUBECTL_VER)-helm$(HELM_VER)-helm$(HELM2_VER)-reg$(REG_VER) \
-        0.6.0 \
-        0.6 \
+TAGS ?= 0.7.0-docker$(DOCKER_VER)-compose$(DOCKER_COMPOSE_VER)-kubectl$(KUBECTL_VER)-helm$(HELM_VER)-helm$(HELM2_VER)-reg$(REG_VER) \
+        0.7.0 \
+        0.7 \
         latest
 VERSION ?= $(word 1,$(subst $(comma), ,$(TAGS)))
 

@@ -139,15 +139,15 @@
   [ "$status" -eq 0 ]
 }
 
-@test "helm wrapper uses helm2 by default" {
+@test "helm wrapper uses helm3 by default" {
   run docker run --rm $IMAGE sh -c \
-    "helm version -c | grep '{SemVer:\"v2.'"
+    "helm version -c | grep '{Version:\"v3.'"
   [ "$status" -eq 0 ]
 }
 
-@test "helm wrapper uses helm3 with DEFAULT_HELM_VER=3" {
-  run docker run --rm -e DEFAULT_HELM_VER=3 $IMAGE sh -c \
-    "helm version | grep '{Version:\"v3.'"
+@test "helm wrapper uses helm2 with DEFAULT_HELM_VER=2" {
+  run docker run --rm -e DEFAULT_HELM_VER=2 $IMAGE sh -c \
+    "helm version | grep '{SemVer:\"v2.'"
   [ "$status" -eq 0 ]
 }
 

@@ -32,9 +32,9 @@ At the moment the image contains two versions of `helm`:
 - `helm2` for [Helm v2](https://v2.helm.sh/docs);
 - `helm3` for [Helm v3](https://helm.sh/docs).
 
-They can be used either directly via `helm2`/`helm3` binaries, or via `helm` shim which uses internally `helm2` by default, but may be switched to `helm3` via providing `DEFAULT_HELM_VER=3` env var to a container:
+They can be used either directly via `helm2`/`helm3` binaries, or via `helm` shim which uses internally `helm3` by default, but may be switched to `helm2` via providing `DEFAULT_HELM_VER=2` env var to a container:
 ```bash
-docker run --rm -e DEFAULT_HELM_VER=3 instrumentisto/gitlab-builder helm version
+docker run --rm -e DEFAULT_HELM_VER=2 instrumentisto/gitlab-builder helm version
 ```
 
 

@@ -104,7 +104,7 @@ RUN echo '#!/bin/sh'                        > /usr/local/bin/helm \
  && echo 'exec "helm$DEFAULT_HELM_VER" $@' >> /usr/local/bin/helm \
  && chmod +x /usr/local/bin/helm
 
-ENV DEFAULT_HELM_VER=2
+ENV DEFAULT_HELM_VER=3
 
 
 # Install Docker Registry CLI.
