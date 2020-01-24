@@ -2,7 +2,7 @@
 FROM alpine
 
 ARG docker_ver=19.03.5
-ARG docker_compose_ver=1.25.2
+ARG docker_compose_ver=1.25.3
 ARG kubectl_ver=1.17.2
 ARG helm_ver=3.0.2
 ARG helm2_ver=2.16.1
@@ -37,12 +37,12 @@ RUN curl -fL -o /tmp/docker.tar.gz \
 
 # Install Docker Compose CLI.
 RUN curl -fL -o /usr/local/bin/docker-compose \
-         https://github.com/docker/compose/releases/download/v${docker_compose_ver}/docker-compose-Linux-x86_64 \
+         https://github.com/docker/compose/releases/download/${docker_compose_ver}/docker-compose-Linux-x86_64 \
  && chmod +x /usr/local/bin/docker-compose \
     \
  && mkdir -p /usr/local/share/doc/docker-compose/ \
  && curl -fL -o /usr/local/share/doc/docker-compose/LICENSE \
-         https://raw.githubusercontent.com/docker/compose/v${docker_compose_ver}/LICENSE \
+         https://raw.githubusercontent.com/docker/compose/${docker_compose_ver}/LICENSE \
     \
  # Download glibc compatible musl library for Docker Compose, see:
  # https://github.com/docker/compose/pull/3856
