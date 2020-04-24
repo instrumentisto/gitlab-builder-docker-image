@@ -4,7 +4,7 @@ FROM alpine
 ARG docker_ver=19.03.8
 ARG docker_compose_ver=1.25.5
 ARG kubectl_ver=1.18.2
-ARG helm_ver=3.1.2
+ARG helm_ver=3.2.0
 ARG helm2_ver=2.16.6
 ARG reg_ver=0.16.1
 
