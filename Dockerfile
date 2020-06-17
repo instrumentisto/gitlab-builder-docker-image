@@ -5,7 +5,7 @@ ARG docker_ver=19.03.11
 ARG docker_compose_ver=1.26.0
 ARG kubectl_ver=1.18.3
 ARG helm_ver=3.2.4
-ARG helm2_ver=2.16.8
+ARG helm2_ver=2.16.9
 ARG reg_ver=0.16.1
 
 
