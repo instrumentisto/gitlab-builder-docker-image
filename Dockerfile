@@ -1,7 +1,7 @@
 # https://hub.docker.com/_/alpine/
 FROM alpine
 
-ARG docker_ver=19.03.12
+ARG docker_ver=19.03.13
 ARG docker_compose_ver=1.27.3
 ARG kubectl_ver=1.19.2
 ARG helm_ver=3.3.3
