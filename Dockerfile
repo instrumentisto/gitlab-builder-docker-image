@@ -1,7 +1,7 @@
 # https://hub.docker.com/_/alpine/
 FROM alpine
 
-ARG docker_ver=19.03.13
+ARG docker_ver=19.03.14
 ARG docker_compose_ver=1.27.4
 ARG kubectl_ver=1.19.4
 ARG helm_ver=3.4.1
@@ -22,7 +22,7 @@ RUN apk update \
 
 # Install Docker CLI.
 RUN curl -fL -o /tmp/docker.tar.gz \
-         https://download.docker.com/linux/static/edge/x86_64/docker-${docker_ver}.tgz \
+         https://download.docker.com/linux/static/stable/x86_64/docker-${docker_ver}.tgz \
  && tar -xvf /tmp/docker.tar.gz -C /tmp/ \
     \
  && chmod +x /tmp/docker/docker \
