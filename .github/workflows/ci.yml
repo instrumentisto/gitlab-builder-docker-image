@@ -71,7 +71,7 @@ jobs:
           DOCKER_APIKEY: ${{ secrets.QUAYIO_API_TOKEN }}
         with:
           provider: quay
-          destination_container_repo: quay.io/instrumentisto/haraka
+          destination_container_repo: quay.io/instrumentisto/gitlab-builder
           readme_file: README.md
         if: ${{ env.PUBLISH == 'true' }}
       - name: Update README on Docker Hub
@@ -81,7 +81,7 @@ jobs:
           DOCKER_PASS: ${{ secrets.DOCKERHUB_BOT_PASS }}
         with:
           provider: dockerhub
-          destination_container_repo: instrumentisto/haraka
+          destination_container_repo: instrumentisto/gitlab-builder
           readme_file: README.md
         if: ${{ env.PUBLISH == 'true' }}
 
