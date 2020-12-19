@@ -1,12 +1,16 @@
 # https://hub.docker.com/_/alpine/
 FROM alpine
 
+ARG image_ver=0.7.0
 ARG docker_ver=19.03.14
 ARG docker_compose_ver=1.27.4
 ARG kubectl_ver=1.20.0
 ARG helm_ver=3.4.2
 ARG helm2_ver=2.17.0
 ARG reg_ver=0.16.1
+
+LABEL org.opencontainers.image.source="\
+    https://github.com/instrumentisto/gitlab-builder-docker-image"
 
 
 # Install Bash, make, cURL, Git.

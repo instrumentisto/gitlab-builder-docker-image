@@ -1,7 +1,22 @@
 GitLab Builder Docker image
 ===========================
 
-[![GitHub release](https://img.shields.io/github/release/instrumentisto/gitlab-builder-docker-image.svg)](https://hub.docker.com/r/instrumentisto/gitlab-builder/tags) [![Build Status](https://travis-ci.org/instrumentisto/gitlab-builder-docker-image.svg?branch=master)](https://travis-ci.org/instrumentisto/gitlab-builder-docker-image) [![Docker Pulls](https://img.shields.io/docker/pulls/instrumentisto/gitlab-builder.svg)](https://hub.docker.com/r/instrumentisto/gitlab-builder)
+[![Release](https://img.shields.io/github/v/release/instrumentisto/gitlab-builder-docker-image "Release")](https://github.com/instrumentisto/gitlab-builder-docker-image/releases)
+[![CI](https://github.com/instrumentisto/gitlab-builder-docker-image/workflows/CI/badge.svg?branch=master "CI")](https://github.com/instrumentisto/gitlab-builder-docker-image/actions?query=workflow%3ACI+branch%3Amaster)
+[![Docker Hub](https://img.shields.io/docker/pulls/instrumentisto/gitlab-builder?label=Docker%20Hub%20pulls "Docker Hub pulls")](https://hub.docker.com/r/instrumentisto/gitlab-builder)
+
+[Docker Hub](https://hub.docker.com/r/instrumentisto/gitlab-builder)
+| [GitHub Container Registry](https://github.com/orgs/instrumentisto/packages/container/package/gitlab-builder)
+| [Quay.io](https://quay.io/repository/instrumentisto/gitlab-builder)
+
+[Changelog](https://github.com/instrumentisto/gitlab-builder-docker-image/blob/master/CHANGELOG.md)
+
+
+
+
+## Supported tags and respective `Dockerfile` links
+
+- [`0.7.0-docker19.03.14-compose1.27.4-kubectl1.20.0-helm3.4.2-helm2.17.0-reg0.16.1`, `0.7.0`, `8.7`, `latest`][d1]
 
 
 
@@ -87,3 +102,5 @@ If you have any problems with or questions about this image, please contact us t
 [90]: https://github.com/instrumentisto/gitlab-builder-docker-image/issues
 [91]: https://github.com/instrumentisto/gitlab-builder-docker-image/blob/master/LICENSE.md
 [92]: https://github.com/instrumentisto/gitlab-builder-docker-image
+
+[d1]: https://github.com/instrumentisto/gitlab-builder-docker-image/blob/master/Dockerfile
