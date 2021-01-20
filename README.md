@@ -74,13 +74,15 @@ The [sources][92] for producing `instrumentisto/gitlab-builder` Docker images ar
 
 ## Issues
 
-We can't notice comments in the DockerHub so don't use them for reporting issue or asking question.
+We can't notice comments in the [DockerHub] (or other container registries) so don't use them for reporting issue or asking question.
 
 If you have any problems with or questions about this image, please contact us through a [GitHub issue][90].
 
 
 
 
+
+[DockerHub]: https://hub.docker.com
 
 [1]: https://docs.gitlab.com/ce/ci/docker/using_docker_images.html
 
