@@ -6,14 +6,15 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## [0.7.0-docker19.03.15-compose1.28.4-kubectl1.20.3-helm3.5.2-helm2.17.0-reg0.16.1] · 2021-02-18
-[0.7.0-docker19.03.15-compose1.28.4-kubectl1.20.3-helm3.5.2-helm2.17.0-reg0.16.1]: /../../tree/0.7.0-docker19.03.15-compose1.28.4-kubectl1.20.3-helm3.5.2-helm2.17.0-reg0.16.1
+## [0.7.0-docker19.03.15-compose1.28.4-kubectl1.20.4-helm3.5.2-helm2.17.0-reg0.16.1] · 2021-02-19
+[0.7.0-docker19.03.15-compose1.28.4-kubectl1.20.4-helm3.5.2-helm2.17.0-reg0.16.1]: /../../tree/0.7.0-docker19.03.15-compose1.28.4-kubectl1.20.4-helm3.5.2-helm2.17.0-reg0.16.1
 
-[Diff](/../../compare/0.7.0-docker19.03.15-compose1.28.3-kubectl1.20.3-helm3.5.2-helm2.17.0-reg0.16.1...0.7.0-docker19.03.15-compose1.28.4-kubectl1.20.3-helm3.5.2-helm2.17.0-reg0.16.1)
+[Diff](/../../compare/0.7.0-docker19.03.15-compose1.28.3-kubectl1.20.3-helm3.5.2-helm2.17.0-reg0.16.1...0.7.0-docker19.03.15-compose1.28.4-kubectl1.20.4-helm3.5.2-helm2.17.0-reg0.16.1)
 
 ### Upgraded
 
 - Docker Compose CLI 1.28.4: <https://github.com/docker/compose/releases/tag/1.28.4>
+- Kubernetes CLI 1.20.4: <https://github.com/kubernetes/kubernetes/blob/3a22c023b9f1a7344ad96343cd68bc7409aee4ba/CHANGELOG/CHANGELOG-1.20.md#changelog-since-v1203>
 
 
 
