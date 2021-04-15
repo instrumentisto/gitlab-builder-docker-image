@@ -6,13 +6,14 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## [0.7.0-docker19.03.15-compose1.29.0-kubectl1.21.0-helm3.5.4-helm2.17.0-reg0.16.1] · 2021-04-15
-[0.7.0-docker19.03.15-compose1.29.0-kubectl1.21.0-helm3.5.4-helm2.17.0-reg0.16.1]: /../../tree/0.7.0-docker19.03.15-compose1.29.0-kubectl1.21.0-helm3.5.4-helm2.17.0-reg0.16.1
+## [0.7.0-docker19.03.15-compose1.29.1-kubectl1.21.0-helm3.5.4-helm2.17.0-reg0.16.1] · 2021-04-15
+[0.7.0-docker19.03.15-compose1.29.1-kubectl1.21.0-helm3.5.4-helm2.17.0-reg0.16.1]: /../../tree/0.7.0-docker19.03.15-compose1.29.1-kubectl1.21.0-helm3.5.4-helm2.17.0-reg0.16.1
 
-[Diff](/../../compare/0.7.0-docker19.03.15-compose1.29.0-kubectl1.21.0-helm3.5.3-helm2.17.0-reg0.16.1...0.7.0-docker19.03.15-compose1.29.0-kubectl1.21.0-helm3.5.4-helm2.17.0-reg0.16.1)
+[Diff](/../../compare/0.7.0-docker19.03.15-compose1.29.0-kubectl1.21.0-helm3.5.3-helm2.17.0-reg0.16.1...0.7.0-docker19.03.15-compose1.29.1-kubectl1.21.0-helm3.5.4-helm2.17.0-reg0.16.1)
 
 ### Upgraded
 
+- Docker Compose CLI 1.29.1: <https://github.com/docker/compose/releases/tag/1.29.1>
 - Helm 3.5.4: <https://github.com/helm/helm/releases/tag/v3.5.4>
 
 
