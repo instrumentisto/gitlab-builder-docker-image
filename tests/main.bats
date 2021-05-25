@@ -158,3 +158,30 @@
 
   [ "$actual" = "$expected" ]
 }
+
+
+@test "contains release-cli" {
+  run docker run --rm $IMAGE which release-cli
+  [ "$status" -eq 0 ]
+}
+
+@test "release-cli runs ok" {
+  run docker run --rm $IMAGE release-cli -v
+  [ "$status" -eq 0 ]
+}
+
+@test "release-cli has correct version" {
+  run sh -c "grep 'ARG gitlab_release_cli_ver=' Dockerfile | head -1 \
+                                                           | cut -d '=' -f2"
+  [ "$status" -eq 0 ]
+  [ ! "$output" = '' ]
+  expected="$output"
+
+  run docker run --rm $IMAGE sh -c "release-cli -v | grep ' version ' \
+                                                   | cut -d ' ' -f3"
+  [ "$status" -eq 0 ]
+  [ ! "$output" = '' ]
+  actual="$output"
+
+  [ "$actual" = "$expected" ]
+}

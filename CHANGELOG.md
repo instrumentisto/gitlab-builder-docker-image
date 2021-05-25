@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [0.8.0-docker19.03.15-compose1.29.2-kubectl1.21.1-helm3.5.4-helm2.17.0-reg0.16.1-releasecli0.8.0] · 2021-05-25
+[0.8.0-docker19.03.15-compose1.29.2-kubectl1.21.1-helm3.5.4-helm2.17.0-reg0.16.1-releasecli0.8.0]: /../../tree/0.8.0-docker19.03.15-compose1.29.2-kubectl1.21.1-helm3.5.4-helm2.17.0-reg0.16.1-releasecli0.8.0
+
+[Diff](/../../compare/0.7.0-docker19.03.15-compose1.29.2-kubectl1.21.1-helm3.5.4-helm2.17.0-reg0.16.1...0.8.0-docker19.03.15-compose1.29.2-kubectl1.21.1-helm3.5.4-helm2.17.0-reg0.16.1-releasecli0.8.0)
+
+### Added
+
+- GitLab Release CLI 0.8.0: <https://gitlab.com/gitlab-org/release-cli/-/blob/v0.8.0/CHANGELOG.md#anchor-080>
+
+
+
+
 ## [0.7.0-docker19.03.15-compose1.29.2-kubectl1.21.1-helm3.5.4-helm2.17.0-reg0.16.1] · 2021-05-13
 [0.7.0-docker19.03.15-compose1.29.2-kubectl1.21.1-helm3.5.4-helm2.17.0-reg0.16.1]: /../../tree/0.7.0-docker19.03.15-compose1.29.2-kubectl1.21.1-helm3.5.4-helm2.17.0-reg0.16.1
 

@@ -1,13 +1,30 @@
-# https://hub.docker.com/_/alpine/
-FROM alpine
+#
+# Stage 'dist-release-cli' creates GitLab Release CLI distribution.
+#
 
-ARG image_ver=0.7.0
+# https://gitlab.com/gitlab-org/release-cli/container_registry/
+ARG gitlab_release_cli_ver=0.8.0
+FROM registry.gitlab.com/gitlab-org/release-cli:v${gitlab_release_cli_ver} \
+  AS dist-release-cli
+
+
+
+
+#
+# Stage 'runtime' creates final Docker image to use in runtime.
+#
+
+# https://hub.docker.com/_/alpine/
+FROM alpine AS runtime
+
+ARG image_ver=0.8.0
 ARG docker_ver=19.03.15
 ARG docker_compose_ver=1.29.2
 ARG kubectl_ver=1.21.1
 ARG helm_ver=3.5.4
 ARG helm2_ver=2.17.0
 ARG reg_ver=0.16.1
+ARG gitlab_release_cli_ver=0.8.0
 
 LABEL org.opencontainers.image.source="\
     https://github.com/instrumentisto/gitlab-builder-docker-image"
@@ -119,6 +136,14 @@ RUN curl -fL -o /usr/local/bin/reg \
  && mkdir -p /usr/local/share/doc/reg/ \
  && curl -fL -o /usr/local/share/doc/reg/LICENSE \
           https://github.com/genuinetools/reg/blob/v${reg_ver}/LICENSE
+
+
+# Install GitLab Release CLI.
+COPY --from=dist-release-cli /usr/local/bin/release-cli \
+                             /usr/local/bin/release-cli
+RUN mkdir -p /usr/local/share/doc/release-cli/ \
+ && curl -fL -o /usr/local/share/doc/release-cli/LICENSE \
+         https://gitlab.com/gitlab-org/release-cli/-/raw/v${gitlab_release_cli_ver}/LICENSE
 
 
 ENTRYPOINT ["/sbin/tini", "--"]

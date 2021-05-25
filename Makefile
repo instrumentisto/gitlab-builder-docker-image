@@ -29,12 +29,15 @@ HELM2_VER ?= $(strip \
 	$(shell grep 'ARG helm2_ver=' Dockerfile | cut -d '=' -f2))
 REG_VER ?= $(strip \
 	$(shell grep 'ARG reg_ver=' Dockerfile | cut -d '=' -f2))
+GITLAB_RELEASE_CLI_VER ?= $(strip \
+	$(shell grep 'ARG gitlab_release_cli_ver=' Dockerfile | head -1 \
+	                                                      | cut -d '=' -f2))
 
 NAMESPACES := instrumentisto \
               ghcr.io/instrumentisto \
               quay.io/instrumentisto
 NAME := gitlab-builder
-TAGS ?= $(IMAGE_VER)-docker$(DOCKER_VER)-compose$(DOCKER_COMPOSE_VER)-kubectl$(KUBECTL_VER)-helm$(HELM_VER)-helm$(HELM2_VER)-reg$(REG_VER) \
+TAGS ?= $(IMAGE_VER)-docker$(DOCKER_VER)-compose$(DOCKER_COMPOSE_VER)-kubectl$(KUBECTL_VER)-helm$(HELM_VER)-helm$(HELM2_VER)-reg$(REG_VER)-releasecli$(GITLAB_RELEASE_CLI_VER) \
         $(IMAGE_VER) \
         $(strip $(shell echo $(IMAGE_VER) | cut -d '.' -f1,2)) \
         latest
@@ -81,6 +84,7 @@ docker-tags = $(strip $(if $(call eq,$(tags),),\
 #	                  [HELM_VER=<helm-version>]
 #	                  [HELM2_VER=<helm2-version>]
 #	                  [REG_VER=<reg-version>]
+#	                  [GITLAB_RELEASE_CLI_VER=<gitlab-release-cli-version>]
 
 docker.image:
 	docker build --network=host --force-rm \
@@ -92,6 +96,7 @@ docker.image:
 		--build-arg helm_ver=$(HELM_VER) \
 		--build-arg helm2_ver=$(HELM2_VER) \
 		--build-arg reg_ver=$(REG_VER) \
+		--build-arg gitlab_release_cli_ver=$(GITLAB_RELEASE_CLI_VER) \
 		-t instrumentisto/$(NAME):$(if $(call eq,$(tag),),$(VERSION),$(tag)) ./
 
 
@@ -154,7 +159,7 @@ test.docker:
 ifeq ($(wildcard node_modules/.bin/bats),)
 	@make npm.install
 endif
-	IMAGE=instrumentisto/$(NAME):$(tag) \
+	IMAGE=instrumentisto/$(NAME):$(if $(call eq,$(tag),),$(VERSION),$(tag)) \
 	node_modules/.bin/bats \
 		--timing $(if $(call eq,$(CI),),--pretty,--formatter tap) \
 		tests/main.bats

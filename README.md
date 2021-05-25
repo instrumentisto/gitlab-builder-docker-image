@@ -16,7 +16,7 @@ GitLab Builder Docker image
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`0.7.0-docker19.03.15-compose1.29.2-kubectl1.21.1-helm3.5.4-helm2.17.0-reg0.16.1`, `0.7.0`, `0.7`, `latest`][d1]
+- [`0.8.0-docker19.03.15-compose1.29.2-kubectl1.21.1-helm3.5.4-helm2.17.0-reg0.16.1-releasecli0.8.0`, `0.8.0`, `0.8`, `latest`][d1]
 
 
 
@@ -61,7 +61,8 @@ docker run --rm -e DEFAULT_HELM_VER=2 instrumentisto/gitlab-builder helm version
 [Docker Compose CLI][20] is licensed under [Apache License 2.0][21].  
 [Kubernetes CLI (`kubectl`)][30] is licensed under [Apache License 2.0][31].  
 [Helm][40] is licensed under [Apache License 2.0][41].  
-[Docker Registry CLI][50] is licensed under [MIT License][51].
+[Docker Registry CLI][50] is licensed under [MIT License][51].  
+[GitLab Release CLI][60] is licensed under [MIT License][61].
 
 As with all Docker images, these likely also contain other software which may be under other licenses (such as Bash, etc from the base distribution, along with any direct or indirect dependencies of the primary software being contained).
 
@@ -100,6 +101,9 @@ If you have any problems with or questions about this image, please contact us t
 
 [50]: https://github.com/genuinetools/reg
 [51]: https://github.com/genuinetools/reg/blob/master/LICENSE
+
+[60]: https://gitlab.com/gitlab-org/release-cli
+[61]: https://gitlab.com/gitlab-org/release-cli/-/blob/master/LICENSE
 
 [90]: https://github.com/instrumentisto/gitlab-builder-docker-image/issues
 [91]: https://github.com/instrumentisto/gitlab-builder-docker-image/blob/master/LICENSE.md
