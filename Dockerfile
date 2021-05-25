@@ -22,7 +22,6 @@ ARG docker_ver=19.03.15
 ARG docker_compose_ver=1.29.2
 ARG kubectl_ver=1.21.1
 ARG helm_ver=3.5.4
-ARG helm2_ver=2.17.0
 ARG reg_ver=0.16.1
 ARG gitlab_release_cli_ver=0.8.0
 
@@ -94,38 +93,18 @@ RUN curl -fL -o /usr/local/bin/kubectl \
  && chmod +x /usr/local/bin/kubectl
 
 
-# Install Kubernetes Helm v3.
+# Install Kubernetes Helm.
 RUN curl -fL -o /tmp/helm.tar.gz \
          https://get.helm.sh/helm-v${helm_ver}-linux-amd64.tar.gz \
  && tar -xzf /tmp/helm.tar.gz -C /tmp/ \
     \
  && chmod +x /tmp/linux-amd64/helm \
- && mv /tmp/linux-amd64/helm /usr/local/bin/helm3 \
+ && mv /tmp/linux-amd64/helm /usr/local/bin/ \
     \
- && mkdir -p /usr/local/share/doc/helm3/ \
- && mv /tmp/linux-amd64/LICENSE /usr/local/share/doc/helm3/ \
-    \
- && rm -rf /tmp/*
-
-# Install Kubernetes Helm v2.
-RUN curl -fL -o /tmp/helm.tar.gz \
-         https://kubernetes-helm.storage.googleapis.com/helm-v${helm2_ver}-linux-amd64.tar.gz \
- && tar -xzf /tmp/helm.tar.gz -C /tmp/ \
-    \
- && chmod +x /tmp/linux-amd64/helm \
- && mv /tmp/linux-amd64/helm /usr/local/bin/helm2 \
-    \
- && mkdir -p /usr/local/share/doc/helm2/ \
- && mv /tmp/linux-amd64/LICENSE /usr/local/share/doc/helm2/ \
+ && mkdir -p /usr/local/share/doc/helm/ \
+ && mv /tmp/linux-amd64/LICENSE /usr/local/share/doc/helm/ \
     \
  && rm -rf /tmp/*
-
-# Install Kubernetes Helm wrapper.
-RUN echo '#!/bin/sh'                        > /usr/local/bin/helm \
- && echo 'exec "helm$DEFAULT_HELM_VER" $@' >> /usr/local/bin/helm \
- && chmod +x /usr/local/bin/helm
-
-ENV DEFAULT_HELM_VER=3
 
 
 # Install Docker Registry CLI.

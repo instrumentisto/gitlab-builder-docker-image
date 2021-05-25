@@ -16,7 +16,7 @@ GitLab Builder Docker image
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`0.8.0-docker19.03.15-compose1.29.2-kubectl1.21.1-helm3.5.4-helm2.17.0-reg0.16.1-releasecli0.8.0`, `0.8.0`, `0.8`, `latest`][d1]
+- [`0.8.0-docker19.03.15-compose1.29.2-kubectl1.21.1-helm3.5.4-reg0.16.1-releasecli0.8.0`, `0.8.0`, `0.8`, `latest`][d1]
 
 
 
@@ -37,20 +37,6 @@ The idea is:
 This approach allows to fix and use the same environment for any project's operations both on CI and in local development. And the required toolset **for any project** is only: `bash`, `git`, `make`, `curl`, `docker`, `docker-compose`, `kubectl`, `helm`.
 
 ![Logo](https://cdn-images-1.medium.com/max/646/1*ZTVAANqTcZaLEeJXN0Y84g.png)
-
-
-
-
-## Helm usage
-
-At the moment the image contains two versions of `helm`:
-- `helm2` for [Helm v2](https://v2.helm.sh/docs);
-- `helm3` for [Helm v3](https://helm.sh/docs).
-
-They can be used either directly via `helm2`/`helm3` binaries, or via `helm` shim which uses internally `helm3` by default, but may be switched to `helm2` via providing `DEFAULT_HELM_VER=2` env var to a container:
-```bash
-docker run --rm -e DEFAULT_HELM_VER=2 instrumentisto/gitlab-builder helm version
-```
 
 
 

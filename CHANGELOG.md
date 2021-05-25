@@ -6,10 +6,14 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## [0.8.0-docker19.03.15-compose1.29.2-kubectl1.21.1-helm3.5.4-helm2.17.0-reg0.16.1-releasecli0.8.0] · 2021-05-25
-[0.8.0-docker19.03.15-compose1.29.2-kubectl1.21.1-helm3.5.4-helm2.17.0-reg0.16.1-releasecli0.8.0]: /../../tree/0.8.0-docker19.03.15-compose1.29.2-kubectl1.21.1-helm3.5.4-helm2.17.0-reg0.16.1-releasecli0.8.0
+## [0.8.0-docker19.03.15-compose1.29.2-kubectl1.21.1-helm3.5.4-reg0.16.1-releasecli0.8.0] · 2021-05-25
+[0.8.0-docker19.03.15-compose1.29.2-kubectl1.21.1-helm3.5.4-reg0.16.1-releasecli0.8.0]: /../../tree/0.8.0-docker19.03.15-compose1.29.2-kubectl1.21.1-helm3.5.4-reg0.16.1-releasecli0.8.0
 
-[Diff](/../../compare/0.7.0-docker19.03.15-compose1.29.2-kubectl1.21.1-helm3.5.4-helm2.17.0-reg0.16.1...0.8.0-docker19.03.15-compose1.29.2-kubectl1.21.1-helm3.5.4-helm2.17.0-reg0.16.1-releasecli0.8.0)
+[Diff](/../../compare/0.7.0-docker19.03.15-compose1.29.2-kubectl1.21.1-helm3.5.4-helm2.17.0-reg0.16.1...0.8.0-docker19.03.15-compose1.29.2-kubectl1.21.1-helm3.5.4-reg0.16.1-releasecli0.8.0)
+
+### BC Breaks
+
+- Removed [Helm v2](https://v2.helm.sh/docs).
 
 ### Added
 
