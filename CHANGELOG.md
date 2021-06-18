@@ -6,14 +6,15 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## [0.8.0-docker19.03.15-compose1.29.2-kubectl1.21.1-helm3.6.1-reg0.16.1-releasecli0.8.0] · 2021-06-17
-[0.8.0-docker19.03.15-compose1.29.2-kubectl1.21.1-helm3.6.1-reg0.16.1-releasecli0.8.0]: /../../tree/0.8.0-docker19.03.15-compose1.29.2-kubectl1.21.1-helm3.6.1-reg0.16.1-releasecli0.8.0
+## [0.8.0-docker19.03.15-compose1.29.2-kubectl1.21.2-helm3.6.1-reg0.16.1-releasecli0.8.0] · 2021-06-18
+[0.8.0-docker19.03.15-compose1.29.2-kubectl1.21.2-helm3.6.1-reg0.16.1-releasecli0.8.0]: /../../tree/0.8.0-docker19.03.15-compose1.29.2-kubectl1.21.2-helm3.6.1-reg0.16.1-releasecli0.8.0
 
-[Diff](/../../compare/0.8.0-docker19.03.15-compose1.29.2-kubectl1.21.1-helm3.6.0-reg0.16.1-releasecli0.8.0...0.8.0-docker19.03.15-compose1.29.2-kubectl1.21.1-helm3.6.1-reg0.16.1-releasecli0.8.0)
+[Diff](/../../compare/0.8.0-docker19.03.15-compose1.29.2-kubectl1.21.1-helm3.6.0-reg0.16.1-releasecli0.8.0...0.8.0-docker19.03.15-compose1.29.2-kubectl1.21.2-helm3.6.1-reg0.16.1-releasecli0.8.0)
 
 ### Upgraded
 
 - Helm 3.6.1: <https://github.com/helm/helm/releases/tag/v3.6.1>
+- Kubernetes CLI 1.21.2: <https://github.com/kubernetes/kubernetes/blob/47171077bf387bf63e10a04a61d5c96d59983037/CHANGELOG/CHANGELOG-1.21.md#changelog-since-v1211>
 
 
 
