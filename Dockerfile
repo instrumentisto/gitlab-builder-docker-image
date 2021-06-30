@@ -18,7 +18,7 @@ FROM registry.gitlab.com/gitlab-org/release-cli:v${gitlab_release_cli_ver} \
 FROM alpine AS runtime
 
 ARG image_ver=0.8.0
-ARG docker_ver=19.03.15
+ARG docker_ver=20.10.7
 ARG docker_compose_ver=1.29.2
 ARG kubectl_ver=1.21.2
 ARG helm_ver=3.6.2
@@ -50,7 +50,9 @@ RUN curl -fL -o /tmp/docker.tar.gz \
     \
  && mkdir -p /usr/local/share/doc/docker/ \
  && curl -fL -o /usr/local/share/doc/docker/LICENSE \
-         https://raw.githubusercontent.com/docker/docker-ce/v${docker_ver}/components/cli/LICENSE \
+         https://raw.githubusercontent.com/docker/cli/v${docker_ver}/LICENSE \
+ && curl -fL -o /usr/local/share/doc/docker/NOTICE \
+         https://raw.githubusercontent.com/docker/cli/v${docker_ver}/NOTICE \
     \
  && rm -rf /tmp/*
 
