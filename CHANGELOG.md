@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [0.8.1-docker20.10.8-compose1.29.2-kubectl1.22.0-helm3.6.3-reg0.16.1-releasecli0.8.0] · 2021-08-05
+[0.8.1-docker20.10.8-compose1.29.2-kubectl1.22.0-helm3.6.3-reg0.16.1-releasecli0.8.0]: /../../tree/0.8.1-docker20.10.8-compose1.29.2-kubectl1.22.0-helm3.6.3-reg0.16.1-releasecli0.8.0
+
+[Diff](/../../compare/0.8.0-docker20.10.8-compose1.29.2-kubectl1.22.0-helm3.6.3-reg0.16.1-releasecli0.8.0...0.8.1-docker20.10.8-compose1.29.2-kubectl1.22.0-helm3.6.3-reg0.16.1-releasecli0.8.0)
+
+### Added
+
+- `helm-push` plugin: <https://github.com/chartmuseum/helm-push>
+
+
+
+
 ## [0.8.0-docker20.10.8-compose1.29.2-kubectl1.22.0-helm3.6.3-reg0.16.1-releasecli0.8.0] · 2021-08-05
 [0.8.0-docker20.10.8-compose1.29.2-kubectl1.22.0-helm3.6.3-reg0.16.1-releasecli0.8.0]: /../../tree/0.8.0-docker20.10.8-compose1.29.2-kubectl1.22.0-helm3.6.3-reg0.16.1-releasecli0.8.0
 

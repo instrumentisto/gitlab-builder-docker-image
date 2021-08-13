@@ -117,6 +117,16 @@
   [ "$actual" = "$expected" ]
 }
 
+@test "contains helm-push plugin" {
+  run docker run --rm $IMAGE sh -c 'helm plugin list | grep -e "^push\t"'
+  [ "$status" -eq 0 ]
+}
+
+@test "helm-push plugin runs ok" {
+  run docker run --rm $IMAGE helm push --help
+  [ "$status" -eq 0 ]
+}
+
 
 @test "contains reg" {
   run docker run --rm $IMAGE which reg

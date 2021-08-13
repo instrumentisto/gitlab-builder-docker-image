@@ -17,7 +17,7 @@ FROM registry.gitlab.com/gitlab-org/release-cli:v${gitlab_release_cli_ver} \
 # https://hub.docker.com/_/alpine/
 FROM alpine AS runtime
 
-ARG image_ver=0.8.0
+ARG image_ver=0.8.1
 ARG docker_ver=20.10.8
 ARG docker_compose_ver=1.29.2
 ARG kubectl_ver=1.22.0
@@ -105,6 +105,8 @@ RUN curl -fL -o /tmp/helm.tar.gz \
     \
  && mkdir -p /usr/local/share/doc/helm/ \
  && mv /tmp/linux-amd64/LICENSE /usr/local/share/doc/helm/ \
+    \
+ && helm plugin install https://github.com/chartmuseum/helm-push.git \
     \
  && rm -rf /tmp/*
 
