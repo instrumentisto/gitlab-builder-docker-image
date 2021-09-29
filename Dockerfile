@@ -17,9 +17,9 @@ FROM registry.gitlab.com/gitlab-org/release-cli:v${gitlab_release_cli_ver} \
 # https://hub.docker.com/_/alpine/
 FROM alpine AS runtime
 
-ARG image_ver=0.8.1
+ARG image_ver=0.9.0
 ARG docker_ver=20.10.8
-ARG docker_compose_ver=1.29.2
+ARG docker_compose_ver=2.0.0
 ARG kubectl_ver=1.22.2
 ARG helm_ver=3.7.0
 ARG reg_ver=0.16.1
@@ -59,12 +59,17 @@ RUN curl -fL -o /tmp/docker.tar.gz \
 
 # Install Docker Compose CLI.
 RUN curl -fL -o /usr/local/bin/docker-compose \
-         https://github.com/docker/compose/releases/download/${docker_compose_ver}/docker-compose-Linux-x86_64 \
+         https://github.com/docker/compose/releases/download/v${docker_compose_ver}/docker-compose-Linux-amd64 \
  && chmod +x /usr/local/bin/docker-compose \
+ && mkdir -p /root/.docker/cli-plugins/ \
+ && ln -sf /usr/local/bin/docker-compose \
+           /root/.docker/cli-plugins/docker-compose \
     \
  && mkdir -p /usr/local/share/doc/docker-compose/ \
  && curl -fL -o /usr/local/share/doc/docker-compose/LICENSE \
-         https://raw.githubusercontent.com/docker/compose/${docker_compose_ver}/LICENSE \
+         https://raw.githubusercontent.com/docker/compose/v${docker_compose_ver}/LICENSE \
+ && curl -fL -o /usr/local/share/doc/docker-compose/NOTICE \
+         https://raw.githubusercontent.com/docker/compose/v${docker_compose_ver}/NOTICE \
     \
  # Download glibc compatible musl library for Docker Compose, see:
  # https://github.com/docker/compose/pull/3856
