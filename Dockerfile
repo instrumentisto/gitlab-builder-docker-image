@@ -19,7 +19,7 @@ FROM alpine AS runtime
 
 ARG image_ver=0.9.0
 ARG docker_ver=20.10.8
-ARG docker_compose_ver=2.0.0
+ARG docker_compose_ver=2.0.1
 ARG kubectl_ver=1.22.2
 ARG helm_ver=3.7.0
 ARG reg_ver=0.16.1
@@ -59,7 +59,7 @@ RUN curl -fL -o /tmp/docker.tar.gz \
 
 # Install Docker Compose CLI.
 RUN curl -fL -o /usr/local/bin/docker-compose \
-         https://github.com/docker/compose/releases/download/v${docker_compose_ver}/docker-compose-Linux-amd64 \
+         https://github.com/docker/compose/releases/download/v${docker_compose_ver}/docker-compose-linux-x86_64 \
  && chmod +x /usr/local/bin/docker-compose \
  && mkdir -p /root/.docker/cli-plugins/ \
  && ln -sf /usr/local/bin/docker-compose \
