@@ -118,7 +118,7 @@
 }
 
 @test "contains helm-push plugin" {
-  run docker run --rm $IMAGE sh -c 'helm plugin list | grep -e "^push\t"'
+  run docker run --rm $IMAGE sh -c 'helm plugin list | grep -e "^cm-push\t"'
   [ "$status" -eq 0 ]
 }
 
