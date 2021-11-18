@@ -20,7 +20,7 @@ FROM alpine AS runtime
 ARG image_ver=0.9.0
 ARG docker_ver=20.10.11
 ARG docker_compose_ver=2.1.1
-ARG kubectl_ver=1.22.3
+ARG kubectl_ver=1.22.4
 ARG helm_ver=3.7.1
 ARG reg_ver=0.16.1
 ARG gitlab_release_cli_ver=0.10.0
