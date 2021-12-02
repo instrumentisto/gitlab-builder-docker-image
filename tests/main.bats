@@ -123,7 +123,7 @@
 }
 
 @test "helm-push plugin runs ok" {
-  run docker run --rm $IMAGE helm push --help
+  run docker run --rm $IMAGE helm cm-push --help
   [ "$status" -eq 0 ]
 }
 
