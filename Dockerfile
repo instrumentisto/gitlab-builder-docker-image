@@ -3,7 +3,7 @@
 #
 
 # https://gitlab.com/gitlab-org/release-cli/container_registry/
-ARG gitlab_release_cli_ver=0.10.0
+ARG gitlab_release_cli_ver=0.11.0
 FROM registry.gitlab.com/gitlab-org/release-cli:v${gitlab_release_cli_ver} \
   AS dist-release-cli
 
@@ -23,7 +23,7 @@ ARG docker_compose_ver=2.2.3
 ARG kubectl_ver=1.23.3
 ARG helm_ver=3.8.0
 ARG reg_ver=0.16.1
-ARG gitlab_release_cli_ver=0.10.0
+ARG gitlab_release_cli_ver=0.11.0
 
 LABEL org.opencontainers.image.source="\
     https://github.com/instrumentisto/gitlab-builder-docker-image"
