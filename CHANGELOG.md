@@ -6,6 +6,22 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [0.9.0-docker20.10.14-compose2.4.1-kubectl1.23.5-helm3.8.1-reg0.16.1-releasecli0.11.0] · 2022-04-06
+[0.9.0-docker20.10.14-compose2.4.1-kubectl1.23.5-helm3.8.1-reg0.16.1-releasecli0.11.0]: /../../tree/0.9.0-docker20.10.14-compose2.4.1-kubectl1.23.5-helm3.8.1-reg0.16.1-releasecli0.11.0
+
+[Diff](/../../compare/0.9.0-docker20.10.14-compose2.4.0-kubectl1.23.5-helm3.8.1-reg0.16.1-releasecli0.11.0...0.9.0-docker20.10.14-compose2.4.1-kubectl1.23.5-helm3.8.1-reg0.16.1-releasecli0.11.0)
+
+### Upgraded
+
+- [Docker Compose] CLI 2.4.1: <https://github.com/docker/compose/releases/tag/v2.4.1>
+
+### Security updated
+
+- [Alpine Linux] 3.15.4: <https://github.com/docker-library/official-images/commit/1c3c904f7310fa85d2efad018596cc040e00c018>
+
+
+
+
 ## [0.9.0-docker20.10.14-compose2.4.0-kubectl1.23.5-helm3.8.1-reg0.16.1-releasecli0.11.0] · 2022-04-01
 [0.9.0-docker20.10.14-compose2.4.0-kubectl1.23.5-helm3.8.1-reg0.16.1-releasecli0.11.0]: /../../tree/0.9.0-docker20.10.14-compose2.4.0-kubectl1.23.5-helm3.8.1-reg0.16.1-releasecli0.11.0
 
@@ -13,7 +29,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker Compose CLI 2.4.0: <https://github.com/docker/compose/releases/tag/v2.4.0>
+- [Docker Compose] CLI 2.4.0: <https://github.com/docker/compose/releases/tag/v2.4.0>
 
 
 
@@ -25,7 +41,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker Compose CLI 2.3.4: <https://github.com/docker/compose/releases/tag/v2.3.4>
+- [Docker Compose] CLI 2.3.4: <https://github.com/docker/compose/releases/tag/v2.3.4>
 
 
 
@@ -73,7 +89,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker Compose CLI 2.3.3: <https://github.com/docker/compose/releases/tag/v2.3.3>
+- [Docker Compose] CLI 2.3.3: <https://github.com/docker/compose/releases/tag/v2.3.3>
 - Helm 3.8.1: <https://github.com/helm/helm/releases/tag/v3.8.1>
 
 
@@ -86,7 +102,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker Compose CLI 2.3.2: <https://github.com/docker/compose/releases/tag/v2.3.2>
+- [Docker Compose] CLI 2.3.2: <https://github.com/docker/compose/releases/tag/v2.3.2>
 
 
 
@@ -98,7 +114,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker Compose CLI 2.3.0: <https://github.com/docker/compose/releases/tag/v2.3.0>
+- [Docker Compose] CLI 2.3.0: <https://github.com/docker/compose/releases/tag/v2.3.0>
 
 
 
@@ -170,7 +186,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker Compose CLI 2.2.3: <https://github.com/docker/compose/releases/tag/v2.2.3>
+- [Docker Compose] CLI 2.2.3: <https://github.com/docker/compose/releases/tag/v2.2.3>
 
 
 
@@ -230,7 +246,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker Compose CLI 2.2.2: <https://github.com/docker/compose/releases/tag/v2.2.2>
+- [Docker Compose] CLI 2.2.2: <https://github.com/docker/compose/releases/tag/v2.2.2>
 
 
 
@@ -242,7 +258,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker Compose CLI 2.2.1: <https://github.com/docker/compose/releases/tag/v2.2.1>
+- [Docker Compose] CLI 2.2.1: <https://github.com/docker/compose/releases/tag/v2.2.1>
 
 
 
@@ -254,7 +270,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker Compose CLI 2.2.0: <https://github.com/docker/compose/releases/tag/v2.2.0>
+- [Docker Compose] CLI 2.2.0: <https://github.com/docker/compose/releases/tag/v2.2.0>
 
 
 
@@ -279,7 +295,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker Compose CLI 2.1.1: <https://github.com/docker/compose/releases/tag/v2.1.1>
+- [Docker Compose] CLI 2.1.1: <https://github.com/docker/compose/releases/tag/v2.1.1>
 
 
 
@@ -291,7 +307,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker Compose CLI 2.1.0: <https://github.com/docker/compose/releases/tag/v2.1.0>
+- [Docker Compose] CLI 2.1.0: <https://github.com/docker/compose/releases/tag/v2.1.0>
 
 
 
@@ -351,7 +367,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker Compose CLI 2.0.1: <https://github.com/docker/compose/releases/tag/v2.0.1>
+- [Docker Compose] CLI 2.0.1: <https://github.com/docker/compose/releases/tag/v2.0.1>
 
 
 
@@ -363,7 +379,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker Compose CLI 2.0.0: <https://github.com/docker/compose/releases/tag/v2.0.0>
+- [Docker Compose] CLI 2.0.0: <https://github.com/docker/compose/releases/tag/v2.0.0>
 
 
 
@@ -539,7 +555,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker Compose CLI 1.29.2: <https://github.com/docker/compose/releases/tag/1.29.2>
+- [Docker Compose] CLI 1.29.2: <https://github.com/docker/compose/releases/tag/1.29.2>
 
 
 
@@ -551,7 +567,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker Compose CLI 1.29.1: <https://github.com/docker/compose/releases/tag/1.29.1>
+- [Docker Compose] CLI 1.29.1: <https://github.com/docker/compose/releases/tag/1.29.1>
 - Helm 3.5.4: <https://github.com/helm/helm/releases/tag/v3.5.4>
 
 
@@ -576,7 +592,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker Compose CLI 1.29.0: <https://github.com/docker/compose/releases/tag/1.29.0>
+- [Docker Compose] CLI 1.29.0: <https://github.com/docker/compose/releases/tag/1.29.0>
 
 
 
@@ -588,7 +604,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker Compose CLI 1.28.6: <https://github.com/docker/compose/releases/tag/1.28.6>
+- [Docker Compose] CLI 1.28.6: <https://github.com/docker/compose/releases/tag/1.28.6>
 
 
 
@@ -624,7 +640,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker Compose CLI 1.28.5: <https://github.com/docker/compose/releases/tag/1.28.5>
+- [Docker Compose] CLI 1.28.5: <https://github.com/docker/compose/releases/tag/1.28.5>
 
 
 
@@ -636,7 +652,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker Compose CLI 1.28.4: <https://github.com/docker/compose/releases/tag/1.28.4>
+- [Docker Compose] CLI 1.28.4: <https://github.com/docker/compose/releases/tag/1.28.4>
 - Kubernetes CLI 1.20.4: <https://github.com/kubernetes/kubernetes/blob/3a22c023b9f1a7344ad96343cd68bc7409aee4ba/CHANGELOG/CHANGELOG-1.20.md#changelog-since-v1203>
 
 
@@ -649,7 +665,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker Compose CLI 1.28.3: <https://github.com/docker/compose/releases/tag/1.28.3>
+- [Docker Compose] CLI 1.28.3: <https://github.com/docker/compose/releases/tag/1.28.3>
 - Kubernetes CLI 1.20.3: <https://github.com/kubernetes/kubernetes/blob/b2860a360441d15a2f1a7b63e9ca247e5b0ec784/CHANGELOG/CHANGELOG-1.20.md#changelog-since-v1202>
 
 
@@ -675,7 +691,7 @@ All user visible changes to this project will be documented in this file. This p
 ### Upgraded
 
 - Docker CLI 19.03.15: <https://github.com/docker/docker-ce/releases/tag/v19.03.15>
-- Docker Compose CLI 1.28.2: <https://github.com/docker/compose/releases/tag/1.28.2>
+- [Docker Compose] CLI 1.28.2: <https://github.com/docker/compose/releases/tag/1.28.2>
 - Helm 3.5.1: <https://github.com/helm/helm/releases/tag/v3.5.1>
 
 
@@ -688,7 +704,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker Compose CLI 1.28.0: <https://github.com/docker/compose/releases/tag/1.28.0>
+- [Docker Compose] CLI 1.28.0: <https://github.com/docker/compose/releases/tag/1.28.0>
 
 
 
@@ -738,4 +754,6 @@ See [GitHub releases](/../../releases).
 
 
 
+[Alpine Linux]: https://www.alpinelinux.org
+[Docker Compose]: https://docs.docker.com/compose
 [Semantic Versioning 2.0.0]: https://semver.org
