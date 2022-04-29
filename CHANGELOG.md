@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [0.9.0-docker20.10.14-compose2.5.0-kubectl1.23.6-helm3.8.2-reg0.16.1-releasecli0.11.0] · 2022-04-29
+[0.9.0-docker20.10.14-compose2.5.0-kubectl1.23.6-helm3.8.2-reg0.16.1-releasecli0.11.0]: /../../tree/0.9.0-docker20.10.14-compose2.5.0-kubectl1.23.6-helm3.8.2-reg0.16.1-releasecli0.11.0
+
+[Diff](/../../compare/0.9.0-docker20.10.14-compose2.4.1-kubectl1.23.6-helm3.8.2-reg0.16.1-releasecli0.11.0...0.9.0-docker20.10.14-compose2.5.0-kubectl1.23.6-helm3.8.2-reg0.16.1-releasecli0.11.0)
+
+### Upgraded
+
+- [Docker Compose] CLI 2.5.0: <https://github.com/docker/compose/releases/tag/v2.5.0>
+
+
+
+
 ## [0.9.0-docker20.10.14-compose2.4.1-kubectl1.23.6-helm3.8.2-reg0.16.1-releasecli0.11.0] · 2022-04-21
 [0.9.0-docker20.10.14-compose2.4.1-kubectl1.23.6-helm3.8.2-reg0.16.1-releasecli0.11.0]: /../../tree/0.9.0-docker20.10.14-compose2.4.1-kubectl1.23.6-helm3.8.2-reg0.16.1-releasecli0.11.0
 
