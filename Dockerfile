@@ -18,7 +18,7 @@ FROM registry.gitlab.com/gitlab-org/release-cli:v${gitlab_release_cli_ver} \
 FROM alpine AS runtime
 
 ARG image_ver=0.9.0
-ARG docker_ver=20.10.16
+ARG docker_ver=20.10.17
 ARG docker_compose_ver=2.6.0
 ARG kubectl_ver=1.24.1
 ARG helm_ver=3.9.0
