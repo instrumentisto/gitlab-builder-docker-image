@@ -83,6 +83,10 @@ docker-tags = $(strip $(if $(call eq,$(tags),),\
 #	                  [REG_VER=<reg-version>]
 #	                  [GITLAB_RELEASE_CLI_VER=<gitlab-release-cli-version>]
 
+github_url := $(strip $(or $(GITHUB_SERVER_URL),https://github.com))
+github_repo := $(strip $(or $(GITHUB_REPOSITORY),\
+                            instrumentisto/gitlab-builder-docker-image))
+
 docker.image:
 	docker build --network=host --force-rm \
 		$(if $(call eq,$(no-cache),yes),--no-cache --pull,) \
@@ -93,6 +97,11 @@ docker.image:
 		--build-arg helm_ver=$(HELM_VER) \
 		--build-arg reg_ver=$(REG_VER) \
 		--build-arg gitlab_release_cli_ver=$(GITLAB_RELEASE_CLI_VER) \
+		--label org.opencontainers.image.source=$(github_url)/$(github_repo) \
+		--label org.opencontainers.image.revision=$(strip \
+			$(shell git show --pretty=format:%H --no-patch)) \
+		--label org.opencontainers.image.version=$(strip \
+			$(shell git describe --tags --dirty)) \
 		-t instrumentisto/$(NAME):$(if $(call eq,$(tag),),$(VERSION),$(tag)) ./
 
 

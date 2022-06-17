@@ -25,9 +25,6 @@ ARG helm_ver=3.9.0
 ARG reg_ver=0.16.1
 ARG gitlab_release_cli_ver=0.11.0
 
-LABEL org.opencontainers.image.source="\
-    https://github.com/instrumentisto/gitlab-builder-docker-image"
-
 
 # Install Bash, make, cURL, Git.
 RUN apk update \
