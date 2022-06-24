@@ -31,10 +31,11 @@ GITLAB_RELEASE_CLI_VER ?= $(strip \
 	$(shell grep 'ARG gitlab_release_cli_ver=' Dockerfile | head -1 \
 	                                                      | cut -d '=' -f2))
 
-NAMESPACES := instrumentisto \
-              ghcr.io/instrumentisto \
-              quay.io/instrumentisto
 NAME := gitlab-builder
+OWNER := $(or $(GITHUB_REPOSITORY_OWNER),instrumentisto)
+NAMESPACES := $(OWNER) \
+              ghcr.io/$(OWNER) \
+              quay.io/$(OWNER)
 TAGS ?= $(IMAGE_VER)-docker$(DOCKER_VER)-compose$(DOCKER_COMPOSE_VER)-kubectl$(KUBECTL_VER)-helm$(HELM_VER)-reg$(REG_VER)-releasecli$(GITLAB_RELEASE_CLI_VER) \
         $(IMAGE_VER) \
         $(strip $(shell echo $(IMAGE_VER) | cut -d '.' -f1,2)) \
@@ -84,8 +85,7 @@ docker-tags = $(strip $(if $(call eq,$(tags),),\
 #	                  [GITLAB_RELEASE_CLI_VER=<gitlab-release-cli-version>]
 
 github_url := $(strip $(or $(GITHUB_SERVER_URL),https://github.com))
-github_repo := $(strip $(or $(GITHUB_REPOSITORY),\
-                            instrumentisto/gitlab-builder-docker-image))
+github_repo := $(strip $(or $(GITHUB_REPOSITORY),$(OWNER)/$(NAME)-docker-image))
 
 docker.image:
 	docker build --network=host --force-rm \
@@ -102,7 +102,7 @@ docker.image:
 			$(shell git show --pretty=format:%H --no-patch)) \
 		--label org.opencontainers.image.version=$(strip \
 			$(shell git describe --tags --dirty)) \
-		-t instrumentisto/$(NAME):$(if $(call eq,$(tag),),$(VERSION),$(tag)) ./
+		-t $(OWNER)/$(NAME):$(if $(call eq,$(tag),),$(VERSION),$(tag)) ./
 
 
 # Manually push Docker images to container registries.
@@ -139,7 +139,7 @@ define docker.tags.do
 	$(eval from := $(strip $(1)))
 	$(eval repo := $(strip $(2)))
 	$(eval to := $(strip $(3)))
-	docker tag instrumentisto/$(NAME):$(from) $(repo)/$(NAME):$(to)
+	docker tag $(OWNER)/$(NAME):$(from) $(repo)/$(NAME):$(to)
 endef
 
 
@@ -164,7 +164,7 @@ test.docker:
 ifeq ($(wildcard node_modules/.bin/bats),)
 	@make npm.install
 endif
-	IMAGE=instrumentisto/$(NAME):$(if $(call eq,$(tag),),$(VERSION),$(tag)) \
+	IMAGE=$(OWNER)/$(NAME):$(if $(call eq,$(tag),),$(VERSION),$(tag)) \
 	node_modules/.bin/bats \
 		--timing $(if $(call eq,$(CI),),--pretty,--formatter tap) \
 		tests/main.bats
