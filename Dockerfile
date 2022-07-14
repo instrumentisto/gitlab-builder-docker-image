@@ -1,5 +1,5 @@
 #
-# Stage 'dist-release-cli' creates GitLab Release CLI distribution.
+# Stage `dist-release-cli` creates GitLab Release CLI distribution.
 #
 
 # https://gitlab.com/gitlab-org/release-cli/container_registry/
@@ -11,7 +11,7 @@ FROM registry.gitlab.com/gitlab-org/release-cli:v${gitlab_release_cli_ver} \
 
 
 #
-# Stage 'runtime' creates final Docker image to use in runtime.
+# Stage `runtime` creates final Docker image to use in runtime.
 #
 
 # https://hub.docker.com/_/alpine/
