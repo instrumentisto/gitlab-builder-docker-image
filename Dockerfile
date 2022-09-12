@@ -18,7 +18,7 @@ FROM registry.gitlab.com/gitlab-org/release-cli:v${gitlab_release_cli_ver} \
 FROM alpine AS runtime
 
 ARG image_ver=0.9.0
-ARG docker_ver=20.10.17
+ARG docker_ver=20.10.18
 ARG docker_compose_ver=2.10.2
 ARG kubectl_ver=1.25.0
 ARG helm_ver=3.9.4
@@ -78,7 +78,7 @@ RUN curl -fL -o /usr/local/bin/docker-compose \
                        | grep '"tag_name"' | cut -d '"' -f4 | tr -d '\n' ) \
  && curl -fL -o /tmp/glibc-$latestReleaseTag.apk \
          https://github.com/sgerrand/alpine-pkg-glibc/releases/download/$latestReleaseTag/glibc-$latestReleaseTag.apk \
- && apk add --no-cache /tmp/glibc-$latestReleaseTag.apk \
+ && apk add --no-cache --force-overwrite /tmp/glibc-$latestReleaseTag.apk \
  && ln -s /lib/libz.so.1 /usr/glibc-compat/lib/ \
  && ln -s /lib/libc.musl-x86_64.so.1 /usr/glibc-compat/lib/ \
     \
