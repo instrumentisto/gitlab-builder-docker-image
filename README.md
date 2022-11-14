@@ -16,7 +16,7 @@ GitLab Builder Docker image
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`0.9.0-docker20.10.21-compose2.12.2-kubectl1.25.3-helm3.10.1-reg0.16.1-releasecli0.14.0`, `0.9.0`, `0.9`, `latest`][d1]
+- [`0.9.0-docker20.10.21-compose2.12.2-kubectl1.25.4-helm3.10.1-reg0.16.1-releasecli0.14.0`, `0.9.0`, `0.9`, `latest`][d1]
 
 
 
@@ -64,7 +64,6 @@ The [sources][92] for producing `instrumentisto/gitlab-builder` Docker images ar
 We can't notice comments in the [DockerHub] (or other container registries) so don't use them for reporting issue or asking question.
 
 If you have any problems with or questions about this image, please contact us through a [GitHub issue][90].
-
 
 
 

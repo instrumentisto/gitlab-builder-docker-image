@@ -6,6 +6,22 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [0.9.0-docker20.10.21-compose2.12.2-kubectl1.25.4-helm3.10.1-reg0.16.1-releasecli0.14.0] · 2022-11-14
+[0.9.0-docker20.10.21-compose2.12.2-kubectl1.25.4-helm3.10.1-reg0.16.1-releasecli0.14.0]: /../../tree/0.9.0-docker20.10.21-compose2.12.2-kubectl1.25.4-helm3.10.1-reg0.16.1-releasecli0.14.0
+
+[Diff](/../../compare/0.9.0-docker20.10.21-compose2.12.2-kubectl1.25.3-helm3.10.1-reg0.16.1-releasecli0.14.0...0.9.0-docker20.10.21-compose2.12.2-kubectl1.25.4-helm3.10.1-reg0.16.1-releasecli0.14.0)
+
+### Upgraded
+
+- [Kubernetes CLI] 1.25.4: <https://github.com/kubernetes/kubernetes/blob/2432d6d1fdfdf37c2d9bedf30a7bd31263c99058/CHANGELOG/CHANGELOG-1.25.md#changelog-since-v1253>
+
+### Security updated
+
+- [Alpine Linux] 3.16.3: <https://github.com/docker-library/official-images/commit/bbdc5719dd50a7d4c112b517b5bd6d7f8d35ceff>
+
+
+
+
 ## [0.9.0-docker20.10.21-compose2.12.2-kubectl1.25.3-helm3.10.1-reg0.16.1-releasecli0.14.0] · 2022-10-26
 [0.9.0-docker20.10.21-compose2.12.2-kubectl1.25.3-helm3.10.1-reg0.16.1-releasecli0.14.0]: /../../tree/0.9.0-docker20.10.21-compose2.12.2-kubectl1.25.3-helm3.10.1-reg0.16.1-releasecli0.14.0
 
@@ -51,7 +67,7 @@ All user visible changes to this project will be documented in this file. This p
 ### Upgraded
 
 - Docker CLI 20.10.19: <https://github.com/docker/cli/releases/tag/v20.10.19>
-- Kubernetes CLI 1.25.3: <https://github.com/kubernetes/kubernetes/blob/97efa303b763449284f9829a86a0bd313f38c8e9/CHANGELOG/CHANGELOG-1.25.md#changelog-since-v1252>
+- [Kubernetes CLI] 1.25.3: <https://github.com/kubernetes/kubernetes/blob/97efa303b763449284f9829a86a0bd313f38c8e9/CHANGELOG/CHANGELOG-1.25.md#changelog-since-v1252>
 
 
 
@@ -99,7 +115,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Kubernetes CLI 1.25.2: <https://github.com/kubernetes/kubernetes/blob/09342b85729f2533598663ddce761106c85b1cda/CHANGELOG/CHANGELOG-1.25.md#changelog-since-v1251>
+- [Kubernetes CLI] 1.25.2: <https://github.com/kubernetes/kubernetes/blob/09342b85729f2533598663ddce761106c85b1cda/CHANGELOG/CHANGELOG-1.25.md#changelog-since-v1251>
 - Helm 3.10.0: <https://github.com/helm/helm/releases/tag/v3.10.0>
 
 
@@ -124,7 +140,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Kubernetes CLI 1.25.1: <https://github.com/kubernetes/kubernetes/blob/994250a223b5038fdd8569d3911b9380f6461ff2/CHANGELOG/CHANGELOG-1.25.md#changelog-since-v1250>
+- [Kubernetes CLI] 1.25.1: <https://github.com/kubernetes/kubernetes/blob/994250a223b5038fdd8569d3911b9380f6461ff2/CHANGELOG/CHANGELOG-1.25.md#changelog-since-v1250>
 
 
 
@@ -185,7 +201,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Kubernetes CLI 1.25.0: <https://github.com/kubernetes/kubernetes/blob/6c0bab878c688fe89fee361e811dc30b518a60e2/CHANGELOG/CHANGELOG-1.25.md#changelog-since-v1240>
+- [Kubernetes CLI] 1.25.0: <https://github.com/kubernetes/kubernetes/blob/6c0bab878c688fe89fee361e811dc30b518a60e2/CHANGELOG/CHANGELOG-1.25.md#changelog-since-v1240>
 
 
 
@@ -209,7 +225,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Kubernetes CLI 1.24.4: <https://github.com/kubernetes/kubernetes/blob/58c10aa6eb5adfb1f3aa4d6cb898b8c347ba9e72/CHANGELOG/CHANGELOG-1.24.md#changelog-since-v1243>
+- [Kubernetes CLI] 1.24.4: <https://github.com/kubernetes/kubernetes/blob/58c10aa6eb5adfb1f3aa4d6cb898b8c347ba9e72/CHANGELOG/CHANGELOG-1.24.md#changelog-since-v1243>
 
 
 
@@ -294,7 +310,7 @@ All user visible changes to this project will be documented in this file. This p
 ### Upgraded
 
 - Helm 3.9.1: <https://github.com/helm/helm/releases/tag/v3.9.1>
-- Kubernetes CLI 1.24.3: <https://github.com/kubernetes/kubernetes/blob/6a784ef8f845796446e20a2c6d717272d1c68ecc/CHANGELOG/CHANGELOG-1.24.md#changelog-since-v1242>
+- [Kubernetes CLI] 1.24.3: <https://github.com/kubernetes/kubernetes/blob/6a784ef8f845796446e20a2c6d717272d1c68ecc/CHANGELOG/CHANGELOG-1.24.md#changelog-since-v1242>
 
 
 
@@ -318,7 +334,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Kubernetes CLI 1.24.2: <https://github.com/kubernetes/kubernetes/blob/b38f355726a537e2326117bc3eda0aaf9ceff891/CHANGELOG/CHANGELOG-1.24.md#changelog-since-v1241>
+- [Kubernetes CLI] 1.24.2: <https://github.com/kubernetes/kubernetes/blob/b38f355726a537e2326117bc3eda0aaf9ceff891/CHANGELOG/CHANGELOG-1.24.md#changelog-since-v1241>
 
 
 
@@ -354,7 +370,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Kubernetes CLI 1.24.1: <https://github.com/kubernetes/kubernetes/blob/9ad41812e58c12dc9666b1172d276c46a70aa5c5/CHANGELOG/CHANGELOG-1.24.md#changelog-since-v1240>
+- [Kubernetes CLI] 1.24.1: <https://github.com/kubernetes/kubernetes/blob/9ad41812e58c12dc9666b1172d276c46a70aa5c5/CHANGELOG/CHANGELOG-1.24.md#changelog-since-v1240>
 
 
 
@@ -414,7 +430,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Kubernetes CLI 1.24.0: <https://github.com/kubernetes/kubernetes/blob/9d278e622427d307d50c1c2440b556005e2f8769/CHANGELOG/CHANGELOG-1.24.md#changelog-since-v1230>
+- [Kubernetes CLI] 1.24.0: <https://github.com/kubernetes/kubernetes/blob/9d278e622427d307d50c1c2440b556005e2f8769/CHANGELOG/CHANGELOG-1.24.md#changelog-since-v1230>
 
 
 
@@ -438,7 +454,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Kubernetes CLI 1.23.6: <https://github.com/kubernetes/kubernetes/blob/f173d01c011c3574dea73a6fa3e20b0ab94531bb/CHANGELOG/CHANGELOG-1.23.md#changelog-since-v1235>
+- [Kubernetes CLI] 1.23.6: <https://github.com/kubernetes/kubernetes/blob/f173d01c011c3574dea73a6fa3e20b0ab94531bb/CHANGELOG/CHANGELOG-1.23.md#changelog-since-v1235>
 
 
 
@@ -514,7 +530,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Kubernetes CLI 1.23.5: <https://github.com/kubernetes/kubernetes/blob/43640d7c23d2efbf564b12b1d30d4732ba7cae89/CHANGELOG/CHANGELOG-1.23.md#changelog-since-v1234>
+- [Kubernetes CLI] 1.23.5: <https://github.com/kubernetes/kubernetes/blob/43640d7c23d2efbf564b12b1d30d4732ba7cae89/CHANGELOG/CHANGELOG-1.23.md#changelog-since-v1234>
 
 
 
@@ -575,7 +591,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Kubernetes CLI 1.23.4: <https://github.com/kubernetes/kubernetes/blob/0e1a62963b8289074da75227db8d9ec1817fe046/CHANGELOG/CHANGELOG-1.23.md#changelog-since-v1233>
+- [Kubernetes CLI] 1.23.4: <https://github.com/kubernetes/kubernetes/blob/0e1a62963b8289074da75227db8d9ec1817fe046/CHANGELOG/CHANGELOG-1.23.md#changelog-since-v1233>
 
 
 
@@ -599,7 +615,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Kubernetes CLI 1.23.3: <https://github.com/kubernetes/kubernetes/blob/4ade9f2547655b99afd7687ad9ca854e6991530d/CHANGELOG/CHANGELOG-1.23.md#changelog-since-v1232>
+- [Kubernetes CLI] 1.23.3: <https://github.com/kubernetes/kubernetes/blob/4ade9f2547655b99afd7687ad9ca854e6991530d/CHANGELOG/CHANGELOG-1.23.md#changelog-since-v1232>
 
 
 
@@ -623,7 +639,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Kubernetes CLI 1.23.2: <https://github.com/kubernetes/kubernetes/blob/3984f091b35cd04270178ce0244bec6ca8781851/CHANGELOG/CHANGELOG-1.23.md#changelog-since-v1231>
+- [Kubernetes CLI] 1.23.2: <https://github.com/kubernetes/kubernetes/blob/3984f091b35cd04270178ce0244bec6ca8781851/CHANGELOG/CHANGELOG-1.23.md#changelog-since-v1231>
 
 
 
@@ -647,7 +663,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Kubernetes CLI 1.23.1: <https://github.com/kubernetes/kubernetes/blob/977049f297aea8f5b096d687f490cb45c4732979/CHANGELOG/CHANGELOG-1.23.md#changelog-since-v1230>
+- [Kubernetes CLI] 1.23.1: <https://github.com/kubernetes/kubernetes/blob/977049f297aea8f5b096d687f490cb45c4732979/CHANGELOG/CHANGELOG-1.23.md#changelog-since-v1230>
 
 
 
@@ -683,7 +699,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Kubernetes CLI 1.23.0: <https://github.com/kubernetes/kubernetes/blob/4cc1abf2474efee4e358626856b5fc8a5675baed/CHANGELOG/CHANGELOG-1.23.md#changelog-since-v1220>
+- [Kubernetes CLI] 1.23.0: <https://github.com/kubernetes/kubernetes/blob/4cc1abf2474efee4e358626856b5fc8a5675baed/CHANGELOG/CHANGELOG-1.23.md#changelog-since-v1220>
 
 
 
@@ -732,7 +748,7 @@ All user visible changes to this project will be documented in this file. This p
 ### Upgraded
 
 - Docker CLI 20.10.11: <https://github.com/docker/cli/releases/tag/v20.10.11>
-- Kubernetes CLI 1.22.4: <https://github.com/kubernetes/kubernetes/blob/5cf7e5f57d68fe35585e7d17699178d348f3d923/CHANGELOG/CHANGELOG-1.22.md#changelog-since-v1223>
+- [Kubernetes CLI] 1.22.4: <https://github.com/kubernetes/kubernetes/blob/5cf7e5f57d68fe35585e7d17699178d348f3d923/CHANGELOG/CHANGELOG-1.22.md#changelog-since-v1223>
 
 
 
@@ -768,7 +784,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Kubernetes CLI 1.22.3: <https://github.com/kubernetes/kubernetes/blob/427713e19d1cd9a316f8d477c708c22845ee9240/CHANGELOG/CHANGELOG-1.22.md#changelog-since-v1222>
+- [Kubernetes CLI] 1.22.3: <https://github.com/kubernetes/kubernetes/blob/427713e19d1cd9a316f8d477c708c22845ee9240/CHANGELOG/CHANGELOG-1.22.md#changelog-since-v1222>
 
 
 
@@ -841,7 +857,7 @@ All user visible changes to this project will be documented in this file. This p
 ### Upgraded
 
 - Helm 3.7.0: <https://github.com/helm/helm/releases/tag/v3.7.0>
-- Kubernetes CLI 1.22.2: <https://github.com/kubernetes/kubernetes/blob/8edec0d65f9532d9b7261385710a8e5e80c8ad4e/CHANGELOG/CHANGELOG-1.22.md#changelog-since-v1221>
+- [Kubernetes CLI] 1.22.2: <https://github.com/kubernetes/kubernetes/blob/8edec0d65f9532d9b7261385710a8e5e80c8ad4e/CHANGELOG/CHANGELOG-1.22.md#changelog-since-v1221>
 
 
 
@@ -865,7 +881,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Kubernetes CLI 1.22.1: <https://github.com/kubernetes/kubernetes/blob/0af1c83e0354a12591277f34320eae498ac3bed0/CHANGELOG/CHANGELOG-1.22.md#changelog-since-v1220>
+- [Kubernetes CLI] 1.22.1: <https://github.com/kubernetes/kubernetes/blob/0af1c83e0354a12591277f34320eae498ac3bed0/CHANGELOG/CHANGELOG-1.22.md#changelog-since-v1220>
 
 
 
@@ -902,7 +918,7 @@ All user visible changes to this project will be documented in this file. This p
 ### Upgraded
 
 - Docker CLI 20.10.8: <https://github.com/docker/cli/releases/tag/v20.10.8>
-- Kubernetes CLI 1.22.0: <https://github.com/kubernetes/kubernetes/blob/ab595f37d258b85291bb6f4f18a1649558346bc0/CHANGELOG/CHANGELOG-1.22.md#changelog-since-v1210>
+- [Kubernetes CLI] 1.22.0: <https://github.com/kubernetes/kubernetes/blob/ab595f37d258b85291bb6f4f18a1649558346bc0/CHANGELOG/CHANGELOG-1.22.md#changelog-since-v1210>
 
 
 
@@ -915,7 +931,7 @@ All user visible changes to this project will be documented in this file. This p
 ### Upgraded
 
 - Helm 3.6.3: <https://github.com/helm/helm/releases/tag/v3.6.3>
-- Kubernetes CLI 1.21.3: <https://github.com/kubernetes/kubernetes/blob/0d1aa3a1b8787931b04b31dfb59194969def1026/CHANGELOG/CHANGELOG-1.21.md#changelog-since-v1212>
+- [Kubernetes CLI] 1.21.3: <https://github.com/kubernetes/kubernetes/blob/0d1aa3a1b8787931b04b31dfb59194969def1026/CHANGELOG/CHANGELOG-1.21.md#changelog-since-v1212>
 
 
 
@@ -952,7 +968,7 @@ All user visible changes to this project will be documented in this file. This p
 ### Upgraded
 
 - Helm 3.6.1: <https://github.com/helm/helm/releases/tag/v3.6.1>
-- Kubernetes CLI 1.21.2: <https://github.com/kubernetes/kubernetes/blob/47171077bf387bf63e10a04a61d5c96d59983037/CHANGELOG/CHANGELOG-1.21.md#changelog-since-v1211>
+- [Kubernetes CLI] 1.21.2: <https://github.com/kubernetes/kubernetes/blob/47171077bf387bf63e10a04a61d5c96d59983037/CHANGELOG/CHANGELOG-1.21.md#changelog-since-v1211>
 
 
 
@@ -992,7 +1008,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Kubernetes CLI 1.21.1: <https://github.com/kubernetes/kubernetes/blob/4d75a6238a6e330337526e0513e67d02b1940b63/CHANGELOG/CHANGELOG-1.21.md#changelog-since-v1210>
+- [Kubernetes CLI] 1.21.1: <https://github.com/kubernetes/kubernetes/blob/4d75a6238a6e330337526e0513e67d02b1940b63/CHANGELOG/CHANGELOG-1.21.md#changelog-since-v1210>
 
 
 
@@ -1029,7 +1045,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Kubernetes CLI 1.21.0: <https://github.com/kubernetes/kubernetes/blob/f7e5c6e7d30f0efe55bf268cc973d6d07fd326d2/CHANGELOG/CHANGELOG-1.21.md#changelog-since-v1200-1>
+- [Kubernetes CLI] 1.21.0: <https://github.com/kubernetes/kubernetes/blob/f7e5c6e7d30f0efe55bf268cc973d6d07fd326d2/CHANGELOG/CHANGELOG-1.21.md#changelog-since-v1200-1>
 
 
 
@@ -1065,7 +1081,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Kubernetes CLI 1.20.5: <https://github.com/kubernetes/kubernetes/blob/58d108ad69f07acabc06876bfa8279fd52263535/CHANGELOG/CHANGELOG-1.20.md#changelog-since-v1204>
+- [Kubernetes CLI] 1.20.5: <https://github.com/kubernetes/kubernetes/blob/58d108ad69f07acabc06876bfa8279fd52263535/CHANGELOG/CHANGELOG-1.20.md#changelog-since-v1204>
 
 
 
@@ -1102,7 +1118,7 @@ All user visible changes to this project will be documented in this file. This p
 ### Upgraded
 
 - [Docker Compose] CLI 1.28.4: <https://github.com/docker/compose/releases/tag/1.28.4>
-- Kubernetes CLI 1.20.4: <https://github.com/kubernetes/kubernetes/blob/3a22c023b9f1a7344ad96343cd68bc7409aee4ba/CHANGELOG/CHANGELOG-1.20.md#changelog-since-v1203>
+- [Kubernetes CLI] 1.20.4: <https://github.com/kubernetes/kubernetes/blob/3a22c023b9f1a7344ad96343cd68bc7409aee4ba/CHANGELOG/CHANGELOG-1.20.md#changelog-since-v1203>
 
 
 
@@ -1115,7 +1131,7 @@ All user visible changes to this project will be documented in this file. This p
 ### Upgraded
 
 - [Docker Compose] CLI 1.28.3: <https://github.com/docker/compose/releases/tag/1.28.3>
-- Kubernetes CLI 1.20.3: <https://github.com/kubernetes/kubernetes/blob/b2860a360441d15a2f1a7b63e9ca247e5b0ec784/CHANGELOG/CHANGELOG-1.20.md#changelog-since-v1202>
+- [Kubernetes CLI] 1.20.3: <https://github.com/kubernetes/kubernetes/blob/b2860a360441d15a2f1a7b63e9ca247e5b0ec784/CHANGELOG/CHANGELOG-1.20.md#changelog-since-v1202>
 
 
 
@@ -1165,7 +1181,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Kubernetes CLI 1.20.2: <https://github.com/kubernetes/kubernetes/blob/3a3445d926d4c7c7dac31ca959dd44cb60b01cc4/CHANGELOG/CHANGELOG-1.20.md#changelog-since-v1201>
+- [Kubernetes CLI] 1.20.2: <https://github.com/kubernetes/kubernetes/blob/3a3445d926d4c7c7dac31ca959dd44cb60b01cc4/CHANGELOG/CHANGELOG-1.20.md#changelog-since-v1201>
 - Helm 3.5.0: <https://github.com/helm/helm/releases/tag/v3.5.0>
 
 
@@ -1178,7 +1194,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Kubernetes CLI 1.20.1: <https://github.com/kubernetes/kubernetes/blob/f6ccec3c145674c6f636937e15bff74d57cb09cf/CHANGELOG/CHANGELOG-1.20.md#changelog-since-v1200>
+- [Kubernetes CLI] 1.20.1: <https://github.com/kubernetes/kubernetes/blob/f6ccec3c145674c6f636937e15bff74d57cb09cf/CHANGELOG/CHANGELOG-1.20.md#changelog-since-v1200>
 
 
 
@@ -1202,7 +1218,7 @@ See [GitHub releases](/../../releases).
 
 
 
-
 [Alpine Linux]: https://www.alpinelinux.org
 [Docker Compose]: https://docs.docker.com/compose
+[Kubernetes CLI]: https://kubernetes.io/docs/reference/kubectl
 [Semantic Versioning 2.0.0]: https://semver.org
