@@ -66,10 +66,9 @@ test: test.docker
 # Docker commands #
 ###################
 
-docker-registries = $(strip $(if $(call eq,$(registries),),\
-                            $(REGISTRIES),$(subst $(comma), ,$(registries))))
-docker-tags = $(strip $(if $(call eq,$(tags),),\
-                      $(TAGS),$(subst $(comma), ,$(tags))))
+docker-registries = $(strip \
+	$(or $(subst $(comma), ,$(registries)),$(REGISTRIES)))
+docker-tags = $(strip $(or $(subst $(comma), ,$(tags)),$(TAGS)))
 
 
 # Build Docker image with the given tag.
@@ -102,7 +101,7 @@ docker.image:
 			$(shell git show --pretty=format:%H --no-patch)) \
 		--label org.opencontainers.image.version=$(strip \
 			$(shell git describe --tags --dirty)) \
-		-t $(OWNER)/$(NAME):$(if $(call eq,$(tag),),$(VERSION),$(tag)) ./
+		-t $(OWNER)/$(NAME):$(or $(tag),$(VERSION)) ./
 
 
 # Manually push Docker images to container registries.
@@ -186,9 +185,10 @@ test.docker:
 ifeq ($(wildcard node_modules/.bin/bats),)
 	@make npm.install
 endif
-	IMAGE=$(OWNER)/$(NAME):$(if $(call eq,$(tag),),$(VERSION),$(tag)) \
+	IMAGE=$(OWNER)/$(NAME):$(or $(tag),$(VERSION)) \
 	node_modules/.bin/bats \
 		--timing $(if $(call eq,$(CI),),--pretty,--formatter tap) \
+		--print-output-on-failure \
 		tests/main.bats
 
 
@@ -224,7 +224,7 @@ endif
 # Usage:
 #	make git.release [ver=($(VERSION)|<proj-ver>)]
 
-git-release-tag = $(strip $(if $(call eq,$(ver),),$(VERSION),$(ver)))
+git-release-tag = $(strip $(or $(ver),$(VERSION)))
 
 git.release:
 ifeq ($(shell git rev-parse $(git-release-tag) >/dev/null 2>&1 && echo "ok"),ok)
