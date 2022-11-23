@@ -6,6 +6,19 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [0.9.0-docker20.10.21-compose2.13.0-kubectl1.25.4-helm3.10.2-reg0.16.1-releasecli0.14.0] · 2022-11-23
+[0.9.0-docker20.10.21-compose2.13.0-kubectl1.25.4-helm3.10.2-reg0.16.1-releasecli0.14.0]: /../../tree/0.9.0-docker20.10.21-compose2.13.0-kubectl1.25.4-helm3.10.2-reg0.16.1-releasecli0.14.0
+
+[Diff](/../../compare/0.9.0-docker20.10.21-compose2.12.2-kubectl1.25.4-helm3.10.2-reg0.16.1-releasecli0.14.0...0.9.0-docker20.10.21-compose2.13.0-kubectl1.25.4-helm3.10.2-reg0.16.1-releasecli0.14.0)
+
+### Upgraded
+
+- [Docker Compose] CLI 2.13.0: <https://github.com/docker/compose/releases/tag/v2.13.0>
+- [Alpine Linux] 3.17.0: <https://alpinelinux.org/posts/Alpine-3.17.0-released.html>
+
+
+
+
 ## [0.9.0-docker20.10.21-compose2.12.2-kubectl1.25.4-helm3.10.2-reg0.16.1-releasecli0.14.0] · 2022-11-14
 [0.9.0-docker20.10.21-compose2.12.2-kubectl1.25.4-helm3.10.2-reg0.16.1-releasecli0.14.0]: /../../tree/0.9.0-docker20.10.21-compose2.12.2-kubectl1.25.4-helm3.10.2-reg0.16.1-releasecli0.14.0
 
