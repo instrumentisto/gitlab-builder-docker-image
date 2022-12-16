@@ -6,14 +6,15 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## [0.9.0-docker20.10.21-compose2.14.1-kubectl1.26.0-helm3.10.3-reg0.16.1-releasecli0.14.0] · 2022-12-16
-[0.9.0-docker20.10.21-compose2.14.1-kubectl1.26.0-helm3.10.3-reg0.16.1-releasecli0.14.0]: /../../tree/0.9.0-docker20.10.21-compose2.14.1-kubectl1.26.0-helm3.10.3-reg0.16.1-releasecli0.14.0
+## [0.9.0-docker20.10.21-compose2.14.1-kubectl1.26.0-helm3.10.3-reg0.16.1-releasecli0.15.0] · 2022-12-16
+[0.9.0-docker20.10.21-compose2.14.1-kubectl1.26.0-helm3.10.3-reg0.16.1-releasecli0.15.0]: /../../tree/0.9.0-docker20.10.21-compose2.14.1-kubectl1.26.0-helm3.10.3-reg0.16.1-releasecli0.15.0
 
-[Diff](/../../compare/0.9.0-docker20.10.21-compose2.14.0-kubectl1.26.0-helm3.10.3-reg0.16.1-releasecli0.14.0...0.9.0-docker20.10.21-compose2.14.1-kubectl1.26.0-helm3.10.3-reg0.16.1-releasecli0.14.0)
+[Diff](/../../compare/0.9.0-docker20.10.21-compose2.14.0-kubectl1.26.0-helm3.10.3-reg0.16.1-releasecli0.14.0...0.9.0-docker20.10.21-compose2.14.1-kubectl1.26.0-helm3.10.3-reg0.16.1-releasecli0.15.0)
 
 ### Upgraded
 
 - [Docker Compose] CLI 2.14.1: <https://github.com/docker/compose/releases/tag/v2.14.1>
+- [GitLab Release CLI] 0.15.0: <https://gitlab.com/gitlab-org/release-cli/-/blob/v0.15.0/CHANGELOG.md#anchor-0150>
 
 
 
@@ -165,7 +166,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- GitLab Release CLI 0.14.0: <https://gitlab.com/gitlab-org/release-cli/-/blob/v0.14.0/CHANGELOG.md#anchor-0140>
+- [GitLab Release CLI] 0.14.0: <https://gitlab.com/gitlab-org/release-cli/-/blob/v0.14.0/CHANGELOG.md#anchor-0140>
 
 
 
@@ -359,7 +360,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- GitLab Release CLI 0.13.0: <https://gitlab.com/gitlab-org/release-cli/-/blob/v0.13.0/CHANGELOG.md#0130beta3g891caad-2022-07-18>
+- [GitLab Release CLI] 0.13.0: <https://gitlab.com/gitlab-org/release-cli/-/blob/v0.13.0/CHANGELOG.md#0130beta3g891caad-2022-07-18>
 
 
 
@@ -371,7 +372,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- GitLab Release CLI 0.12.0: <https://gitlab.com/gitlab-org/release-cli/-/blob/v0.12.0/CHANGELOG.md#anchor-0120>
+- [GitLab Release CLI] 0.12.0: <https://gitlab.com/gitlab-org/release-cli/-/blob/v0.12.0/CHANGELOG.md#anchor-0120>
 
 
 
@@ -677,7 +678,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- GitLab Release CLI 0.11.0: <https://gitlab.com/gitlab-org/release-cli/-/blob/v0.11.0/CHANGELOG.md#anchor-0110>
+- [GitLab Release CLI] 0.11.0: <https://gitlab.com/gitlab-org/release-cli/-/blob/v0.11.0/CHANGELOG.md#anchor-0110>
 
 
 
@@ -943,7 +944,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- GitLab Release CLI 0.10.0: <https://gitlab.com/gitlab-org/release-cli/-/blob/v0.10.0/CHANGELOG.md#anchor-0100>
+- [GitLab Release CLI] 0.10.0: <https://gitlab.com/gitlab-org/release-cli/-/blob/v0.10.0/CHANGELOG.md#anchor-0100>
 
 
 
@@ -967,7 +968,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- GitLab Release CLI 0.9.0: <https://gitlab.com/gitlab-org/release-cli/-/blob/v0.9.0/CHANGELOG.md#anchor-090>
+- [GitLab Release CLI] 0.9.0: <https://gitlab.com/gitlab-org/release-cli/-/blob/v0.9.0/CHANGELOG.md#anchor-090>
 
 
 
@@ -1070,7 +1071,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Added
 
-- GitLab Release CLI 0.8.0: <https://gitlab.com/gitlab-org/release-cli/-/blob/v0.8.0/CHANGELOG.md#anchor-080>
+- [GitLab Release CLI] 0.8.0: <https://gitlab.com/gitlab-org/release-cli/-/blob/v0.8.0/CHANGELOG.md#anchor-080>
 
 
 
@@ -1294,6 +1295,7 @@ See [GitHub releases](/../../releases).
 
 [Alpine Linux]: https://www.alpinelinux.org
 [Docker Compose]: https://docs.docker.com/compose
+[GitLab Release CLI]: https://gitlab.com/gitlab-org/release-cli
 [Helm]: https://helm.sh
 [Kubernetes CLI]: https://kubernetes.io/docs/reference/kubectl
 [Semantic Versioning 2.0.0]: https://semver.org
