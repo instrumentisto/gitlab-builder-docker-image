@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [0.9.0-docker20.10.22-compose2.14.1-kubectl1.26.0-helm3.10.3-reg0.16.1-releasecli0.15.0] · 2022-12-19
+[0.9.0-docker20.10.22-compose2.14.1-kubectl1.26.0-helm3.10.3-reg0.16.1-releasecli0.15.0]: /../../tree/0.9.0-docker20.10.22-compose2.14.1-kubectl1.26.0-helm3.10.3-reg0.16.1-releasecli0.15.0
+
+[Diff](/../../compare/0.9.0-docker20.10.21-compose2.14.1-kubectl1.26.0-helm3.10.3-reg0.16.1-releasecli0.15.0...0.9.0-docker20.10.22-compose2.14.1-kubectl1.26.0-helm3.10.3-reg0.16.1-releasecli0.15.0)
+
+### Upgraded
+
+- [Docker CLI] 20.10.22: <https://github.com/docker/cli/releases/tag/v20.10.22>
+
+
+
+
 ## [0.9.0-docker20.10.21-compose2.14.1-kubectl1.26.0-helm3.10.3-reg0.16.1-releasecli0.15.0] · 2022-12-16
 [0.9.0-docker20.10.21-compose2.14.1-kubectl1.26.0-helm3.10.3-reg0.16.1-releasecli0.15.0]: /../../tree/0.9.0-docker20.10.21-compose2.14.1-kubectl1.26.0-helm3.10.3-reg0.16.1-releasecli0.15.0
 
@@ -104,7 +116,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker CLI 20.10.21: <https://github.com/docker/cli/releases/tag/v20.10.21>
+- [Docker CLI] 20.10.21: <https://github.com/docker/cli/releases/tag/v20.10.21>
 
 
 
@@ -128,7 +140,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker CLI 20.10.20: <https://github.com/docker/cli/releases/tag/v20.10.20>
+- [Docker CLI] 20.10.20: <https://github.com/docker/cli/releases/tag/v20.10.20>
 - [Docker Compose] CLI 2.12.0: <https://github.com/docker/compose/releases/tag/v2.12.0>
 
 
@@ -141,7 +153,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker CLI 20.10.19: <https://github.com/docker/cli/releases/tag/v20.10.19>
+- [Docker CLI] 20.10.19: <https://github.com/docker/cli/releases/tag/v20.10.19>
 - [Kubernetes CLI] 1.25.3: <https://github.com/kubernetes/kubernetes/blob/97efa303b763449284f9829a86a0bd313f38c8e9/CHANGELOG/CHANGELOG-1.25.md#changelog-since-v1252>
 
 
@@ -239,7 +251,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker CLI 20.10.18: <https://github.com/docker/cli/releases/tag/v20.10.18>
+- [Docker CLI] 20.10.18: <https://github.com/docker/cli/releases/tag/v20.10.18>
 
 
 
@@ -421,7 +433,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker CLI 20.10.17: <https://github.com/docker/cli/releases/tag/v20.10.17>
+- [Docker CLI] 20.10.17: <https://github.com/docker/cli/releases/tag/v20.10.17>
 
 
 
@@ -481,7 +493,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker CLI 20.10.16: <https://github.com/docker/cli/releases/tag/v20.10.16>
+- [Docker CLI] 20.10.16: <https://github.com/docker/cli/releases/tag/v20.10.16>
 
 
 
@@ -493,7 +505,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker CLI 20.10.15: <https://github.com/docker/cli/releases/tag/v20.10.15>
+- [Docker CLI] 20.10.15: <https://github.com/docker/cli/releases/tag/v20.10.15>
 
 
 
@@ -593,7 +605,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker CLI 20.10.14: <https://github.com/docker/cli/releases/tag/v20.10.14>
+- [Docker CLI] 20.10.14: <https://github.com/docker/cli/releases/tag/v20.10.14>
 
 
 
@@ -617,7 +629,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker CLI 20.10.13: <https://github.com/docker/cli/releases/tag/v20.10.13>
+- [Docker CLI] 20.10.13: <https://github.com/docker/cli/releases/tag/v20.10.13>
 
 
 
@@ -750,7 +762,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker CLI 20.10.12: <https://github.com/docker/cli/releases/tag/v20.10.12>
+- [Docker CLI] 20.10.12: <https://github.com/docker/cli/releases/tag/v20.10.12>
 
 
 
@@ -822,7 +834,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker CLI 20.10.11: <https://github.com/docker/cli/releases/tag/v20.10.11>
+- [Docker CLI] 20.10.11: <https://github.com/docker/cli/releases/tag/v20.10.11>
 - [Kubernetes CLI] 1.22.4: <https://github.com/kubernetes/kubernetes/blob/5cf7e5f57d68fe35585e7d17699178d348f3d923/CHANGELOG/CHANGELOG-1.22.md#changelog-since-v1223>
 
 
@@ -871,7 +883,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker CLI 20.10.10: <https://github.com/docker/cli/releases/tag/v20.10.10>
+- [Docker CLI] 20.10.10: <https://github.com/docker/cli/releases/tag/v20.10.10>
 
 
 
@@ -895,7 +907,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker CLI 20.10.9: <https://github.com/docker/cli/releases/tag/v20.10.9>
+- [Docker CLI] 20.10.9: <https://github.com/docker/cli/releases/tag/v20.10.9>
 
 
 
@@ -992,7 +1004,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker CLI 20.10.8: <https://github.com/docker/cli/releases/tag/v20.10.8>
+- [Docker CLI] 20.10.8: <https://github.com/docker/cli/releases/tag/v20.10.8>
 - [Kubernetes CLI] 1.22.0: <https://github.com/kubernetes/kubernetes/blob/ab595f37d258b85291bb6f4f18a1649558346bc0/CHANGELOG/CHANGELOG-1.22.md#changelog-since-v1210>
 
 
@@ -1018,7 +1030,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker CLI 20.10.7: <https://github.com/docker/cli/releases/tag/v20.10.7>
+- [Docker CLI] 20.10.7: <https://github.com/docker/cli/releases/tag/v20.10.7>
 
 
 
@@ -1230,7 +1242,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- Docker CLI 19.03.15: <https://github.com/docker/docker-ce/releases/tag/v19.03.15>
+- [Docker CLI] 19.03.15: <https://github.com/docker/docker-ce/releases/tag/v19.03.15>
 - [Docker Compose] CLI 1.28.2: <https://github.com/docker/compose/releases/tag/1.28.2>
 - [Helm] 3.5.1: <https://github.com/helm/helm/releases/tag/v3.5.1>
 
@@ -1294,6 +1306,7 @@ See [GitHub releases](/../../releases).
 
 
 [Alpine Linux]: https://www.alpinelinux.org
+[Docker CLI]: https://github.com/docker/docker-ce/blob/master/components/cli
 [Docker Compose]: https://docs.docker.com/compose
 [GitLab Release CLI]: https://gitlab.com/gitlab-org/release-cli
 [Helm]: https://helm.sh
