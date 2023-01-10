@@ -15,6 +15,10 @@ All user visible changes to this project will be documented in this file. This p
 
 - [Docker Compose] CLI 2.15.1: <https://github.com/docker/compose/releases/tag/v2.15.1>
 
+### Security updated
+
+- [Alpine Linux] 3.17.1: <https://github.com/docker-library/official-images/commit/0fea6bf535f1a863460c1d8c2c381e1e548fd220>
+
 
 
 
