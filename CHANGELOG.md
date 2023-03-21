@@ -13,7 +13,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Helm] 3.11.2: <https://github.com/helm/helm/releases/tag/v3.11.2>
+- [Kubernetes CLI] 1.26.3: <https://github.com/kubernetes/kubernetes/blob/fd16329f646657173627945544346eb562483e21/CHANGELOG/CHANGELOG-1.26.md#changelog-since-v1262>
 
 
 
@@ -25,7 +25,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Kubernetes CLI] 1.26.3: <https://github.com/kubernetes/kubernetes/blob/fd16329f646657173627945544346eb562483e21/CHANGELOG/CHANGELOG-1.26.md#changelog-since-v1262>
+- [Helm] 3.11.2: <https://github.com/helm/helm/releases/tag/v3.11.2>
 
 
 
