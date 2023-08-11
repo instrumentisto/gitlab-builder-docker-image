@@ -6,14 +6,15 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## [0.9.0-docker24.0.5-compose2.20.3-kubectl1.27.3-helm3.12.2-reg0.16.1-releasecli0.15.0] · 2023-08-11
-[0.9.0-docker24.0.5-compose2.20.3-kubectl1.27.3-helm3.12.2-reg0.16.1-releasecli0.15.0]: /../../tree/0.9.0-docker24.0.5-compose2.20.3-kubectl1.27.3-helm3.12.2-reg0.16.1-releasecli0.15.0
+## [0.9.0-docker24.0.5-compose2.20.3-kubectl1.27.3-helm3.12.3-reg0.16.1-releasecli0.15.0] · 2023-08-11
+[0.9.0-docker24.0.5-compose2.20.3-kubectl1.27.3-helm3.12.3-reg0.16.1-releasecli0.15.0]: /../../tree/0.9.0-docker24.0.5-compose2.20.3-kubectl1.27.3-helm3.12.3-reg0.16.1-releasecli0.15.0
 
-[Diff](/../../compare/0.9.0-docker24.0.5-compose2.20.2-kubectl1.27.3-helm3.12.2-reg0.16.1-releasecli0.15.0...0.9.0-docker24.0.5-compose2.20.3-kubectl1.27.3-helm3.12.2-reg0.16.1-releasecli0.15.0)
+[Diff](/../../compare/0.9.0-docker24.0.5-compose2.20.2-kubectl1.27.3-helm3.12.2-reg0.16.1-releasecli0.15.0...0.9.0-docker24.0.5-compose2.20.3-kubectl1.27.3-helm3.12.3-reg0.16.1-releasecli0.15.0)
 
 ### Upgraded
 
 - [Docker Compose] CLI 2.20.3: <https://github.com/docker/compose/releases/tag/v2.20.3>
+- [Helm] 3.12.3: <https://github.com/helm/helm/releases/tag/v3.12.3>
 
 ### Security updated
 

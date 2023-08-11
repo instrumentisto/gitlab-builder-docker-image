@@ -21,7 +21,7 @@ ARG image_ver=0.9.0
 ARG docker_ver=24.0.5
 ARG docker_compose_ver=2.20.3
 ARG kubectl_ver=1.27.3
-ARG helm_ver=3.12.2
+ARG helm_ver=3.12.3
 ARG reg_ver=0.16.1
 ARG gitlab_release_cli_ver=0.15.0
 
