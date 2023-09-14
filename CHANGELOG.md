@@ -6,14 +6,15 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## [0.9.0-docker24.0.6-compose2.21.0-kubectl1.28.1-helm3.12.3-reg0.16.1-releasecli0.16.0] · 2023-09-14
-[0.9.0-docker24.0.6-compose2.21.0-kubectl1.28.1-helm3.12.3-reg0.16.1-releasecli0.16.0]: /../../tree/0.9.0-docker24.0.6-compose2.21.0-kubectl1.28.1-helm3.12.3-reg0.16.1-releasecli0.16.0
+## [0.9.0-docker24.0.6-compose2.21.0-kubectl1.28.2-helm3.12.3-reg0.16.1-releasecli0.16.0] · 2023-09-14
+[0.9.0-docker24.0.6-compose2.21.0-kubectl1.28.2-helm3.12.3-reg0.16.1-releasecli0.16.0]: /../../tree/0.9.0-docker24.0.6-compose2.21.0-kubectl1.28.2-helm3.12.3-reg0.16.1-releasecli0.16.0
 
-[Diff](/../../compare/0.9.0-docker24.0.6-compose2.21.0-kubectl1.28.1-helm3.12.3-reg0.16.1-releasecli0.15.0...0.9.0-docker24.0.6-compose2.21.0-kubectl1.28.1-helm3.12.3-reg0.16.1-releasecli0.16.0)
+[Diff](/../../compare/0.9.0-docker24.0.6-compose2.21.0-kubectl1.28.1-helm3.12.3-reg0.16.1-releasecli0.15.0...0.9.0-docker24.0.6-compose2.21.0-kubectl1.28.2-helm3.12.3-reg0.16.1-releasecli0.16.0)
 
 ### Upgraded
 
 - [GitLab Release CLI] 0.16.0: <https://gitlab.com/gitlab-org/release-cli/-/blob/v0.16.0/CHANGELOG.md#anchor-0160>
+- [Kubernetes CLI] 1.28.2: <https://github.com/kubernetes/kubernetes/blob/309876b5d7886b025b152841da442341639e2474/CHANGELOG/CHANGELOG-1.28.md#changelog-since-v1281>
 
 
 
