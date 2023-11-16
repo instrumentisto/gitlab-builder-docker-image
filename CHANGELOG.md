@@ -14,6 +14,7 @@ All user visible changes to this project will be documented in this file. This p
 ### Upgraded
 
 - [Docker Compose] CLI 2.23.1: <https://github.com/docker/compose/releases/tag/v2.23.1>
+- [Kubernetes CLI] 1.28.4: <https://github.com/kubernetes/kubernetes/blob/3f81c5cf3ffe23e3e8ef5dfeaec8032db80e11a7/CHANGELOG/CHANGELOG-1.28.md#changelog-since-v1283>
 
 
 
