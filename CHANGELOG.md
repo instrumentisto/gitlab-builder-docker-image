@@ -11,9 +11,9 @@ All user visible changes to this project will be documented in this file. This p
 
 [Diff](/../../compare/0.9.0-docker24.0.7-compose2.23.3-kubectl1.28.4-helm3.13.2-reg0.16.1-releasecli0.16.0...)
 
-### Security updated
+### Updated
 
-- [Alpine Linux] 3.18.5: <https://github.com/docker-library/official-images/commit/7e13453ce3b47c537e4ffe79127d4900825e9d03>
+- [Alpine Linux] 3.19: <https://www.alpinelinux.org/posts/Alpine-3.19.0-released.html>
 
 
 
