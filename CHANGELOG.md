@@ -6,14 +6,15 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## [0.9.0-docker26.1.1-compose2.27.0-kubectl1.30.0-helm3.14.4-reg0.16.1-releasecli0.17.0] · 2024-05-02
-[0.9.0-docker26.1.1-compose2.27.0-kubectl1.30.0-helm3.14.4-reg0.16.1-releasecli0.17.0]: /../../tree/0.9.0-docker26.1.1-compose2.27.0-kubectl1.30.0-helm3.14.4-reg0.16.1-releasecli0.17.0
+## [0.9.0-docker26.1.1-compose2.27.0-kubectl1.30.0-helm3.14.4-reg0.16.1-releasecli0.18.0] · 2024-05-02
+[0.9.0-docker26.1.1-compose2.27.0-kubectl1.30.0-helm3.14.4-reg0.16.1-releasecli0.18.0]: /../../tree/0.9.0-docker26.1.1-compose2.27.0-kubectl1.30.0-helm3.14.4-reg0.16.1-releasecli0.18.0
 
-[Diff](/../../compare/0.9.0-docker26.1.0-compose2.27.0-kubectl1.30.0-helm3.14.4-reg0.16.1-releasecli0.17.0...0.9.0-docker26.1.1-compose2.27.0-kubectl1.30.0-helm3.14.4-reg0.16.1-releasecli0.17.0)
+[Diff](/../../compare/0.9.0-docker26.1.0-compose2.27.0-kubectl1.30.0-helm3.14.4-reg0.16.1-releasecli0.17.0...0.9.0-docker26.1.1-compose2.27.0-kubectl1.30.0-helm3.14.4-reg0.16.1-releasecli0.18.0)
 
 ### Upgraded
 
 - [Docker CLI] 26.1.1: <https://github.com/docker/cli/releases/tag/v26.1.1>
+- [GitLab Release CLI] 0.18.0: <https://gitlab.com/gitlab-org/release-cli/-/blob/v0.18.0/CHANGELOG.md#0180-2024-04-24>
 
 
 
