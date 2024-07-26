@@ -6,6 +6,22 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [0.9.0-docker27.1.0-compose2.29.0-kubectl1.30.3-helm3.15.3-reg0.16.1-releasecli0.18.0] · 2024-07-26
+[0.9.0-docker27.1.0-compose2.29.0-kubectl1.30.3-helm3.15.3-reg0.16.1-releasecli0.18.0]: /../../tree/0.9.0-docker27.1.0-compose2.29.0-kubectl1.30.3-helm3.15.3-reg0.16.1-releasecli0.18.0
+
+[Diff](/../../compare/0.9.0-docker27.0.3-compose2.29.0-kubectl1.30.3-helm3.15.3-reg0.16.1-releasecli0.18.0...0.9.0-docker27.1.0-compose2.29.0-kubectl1.30.3-helm3.15.3-reg0.16.1-releasecli0.18.0)
+
+### Upgraded
+
+- [Docker CLI] 27.1.0: <https://github.com/docker/cli/releases/tag/v27.1.0>
+
+### Security updated
+
+- [Alpine Linux] 3.20.2: <https://github.com/docker-library/official-images/commit/1a994d381a873e6f9579843dd1eebf64bc50e831>
+
+
+
+
 ## [0.9.0-docker27.0.3-compose2.29.0-kubectl1.30.3-helm3.15.3-reg0.16.1-releasecli0.18.0] · 2024-07-22
 [0.9.0-docker27.0.3-compose2.29.0-kubectl1.30.3-helm3.15.3-reg0.16.1-releasecli0.18.0]: /../../tree/0.9.0-docker27.0.3-compose2.29.0-kubectl1.30.3-helm3.15.3-reg0.16.1-releasecli0.18.0
 
