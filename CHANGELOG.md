@@ -6,14 +6,15 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## [0.9.0-docker27.1.2-compose2.29.1-kubectl1.30.3-helm3.15.3-reg0.16.1-releasecli0.18.0] · 2024-08-14
-[0.9.0-docker27.1.2-compose2.29.1-kubectl1.30.3-helm3.15.3-reg0.16.1-releasecli0.18.0]: /../../tree/0.9.0-docker27.1.2-compose2.29.1-kubectl1.30.3-helm3.15.3-reg0.16.1-releasecli0.18.0
+## [0.9.0-docker27.1.2-compose2.29.1-kubectl1.31.0-helm3.15.3-reg0.16.1-releasecli0.18.0] · 2024-08-14
+[0.9.0-docker27.1.2-compose2.29.1-kubectl1.31.0-helm3.15.3-reg0.16.1-releasecli0.18.0]: /../../tree/0.9.0-docker27.1.2-compose2.29.1-kubectl1.31.0-helm3.15.3-reg0.16.1-releasecli0.18.0
 
-[Diff](/../../compare/0.9.0-docker27.1.1-compose2.29.1-kubectl1.30.3-helm3.15.3-reg0.16.1-releasecli0.18.0...0.9.0-docker27.1.2-compose2.29.1-kubectl1.30.3-helm3.15.3-reg0.16.1-releasecli0.18.0)
+[Diff](/../../compare/0.9.0-docker27.1.1-compose2.29.1-kubectl1.30.3-helm3.15.3-reg0.16.1-releasecli0.18.0...0.9.0-docker27.1.2-compose2.29.1-kubectl1.31.0-helm3.15.3-reg0.16.1-releasecli0.18.0)
 
 ### Upgraded
 
 - [Docker CLI] 27.1.2: <https://github.com/docker/cli/releases/tag/v27.1.2>
+- [Kubernetes CLI] 1.31.0: <https://github.com/kubernetes/kubernetes/blob/09f025973a0c614efade85bfcca671c9b2280e09/CHANGELOG/CHANGELOG-1.31.md#changelog-since-v1300>
 
 
 
