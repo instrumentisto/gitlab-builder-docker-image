@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [main] · unreleased
+[main]: /../../tree/main
+
+[Diff](/../../compare/0.9.0-docker27.3.1-compose2.31.0-kubectl1.31.3-helm3.16.3-reg0.16.1-releasecli0.20.0...main)
+
+### Security updated
+
+- [Alpine Linux] 3.21.0: <https://www.alpinelinux.org/posts/Alpine-3.21.0-released.html>
+
+
+
+
 ## [0.9.0-docker27.3.1-compose2.31.0-kubectl1.31.3-helm3.16.3-reg0.16.1-releasecli0.20.0] · 2024-12-05
 [0.9.0-docker27.3.1-compose2.31.0-kubectl1.31.3-helm3.16.3-reg0.16.1-releasecli0.20.0]: /../../tree/0.9.0-docker27.3.1-compose2.31.0-kubectl1.31.3-helm3.16.3-reg0.16.1-releasecli0.20.0
 
