@@ -6,10 +6,14 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## [main] · unreleased
-[main]: /../../tree/main
+## [0.9.0-docker27.4.0-compose2.31.0-kubectl1.31.3-helm3.16.3-reg0.16.1-releasecli0.20.0] · 2024-12-11
+[0.9.0-docker27.4.0-compose2.31.0-kubectl1.31.3-helm3.16.3-reg0.16.1-releasecli0.20.0]: /../../tree/0.9.0-docker27.4.0-compose2.31.0-kubectl1.31.3-helm3.16.3-reg0.16.1-releasecli0.20.0
 
-[Diff](/../../compare/0.9.0-docker27.3.1-compose2.31.0-kubectl1.31.3-helm3.16.3-reg0.16.1-releasecli0.20.0...main)
+[Diff](/../../compare/0.9.0-docker27.3.1-compose2.31.0-kubectl1.31.3-helm3.16.3-reg0.16.1-releasecli0.20.0...0.9.0-docker27.4.0-compose2.31.0-kubectl1.31.3-helm3.16.3-reg0.16.1-releasecli0.20.0)
+
+### Upgraded
+
+- [Docker CLI] 27.4.0: <https://github.com/docker/cli/releases/tag/v27.4.0>
 
 ### Security updated
 
