@@ -14,6 +14,7 @@ All user visible changes to this project will be documented in this file. This p
 ### Upgraded
 
 - [Docker CLI] 27.4.0: <https://github.com/docker/cli/releases/tag/v27.4.0>
+- [Kubernetes CLI] 1.31.4: <https://github.com/kubernetes/kubernetes/blob/8a39b6062060ffb4fba52f53c011bd00428db194/CHANGELOG/CHANGELOG-1.31.md#changelog-since-v1313>
 
 ### Security updated
 
