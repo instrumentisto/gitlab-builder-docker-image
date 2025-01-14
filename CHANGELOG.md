@@ -6,13 +6,14 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## [0.9.0-docker27.4.1-compose2.32.3-kubectl1.32.0-helm3.16.4-reg0.16.1-releasecli0.20.0] · 2025-01-14
-[0.9.0-docker27.4.1-compose2.32.3-kubectl1.32.0-helm3.16.4-reg0.16.1-releasecli0.20.0]: /../../tree/0.9.0-docker27.4.1-compose2.32.3-kubectl1.32.0-helm3.16.4-reg0.16.1-releasecli0.20.0
+## [0.9.0-docker27.5.0-compose2.32.3-kubectl1.32.0-helm3.16.4-reg0.16.1-releasecli0.20.0] · 2025-01-14
+[0.9.0-docker27.5.0-compose2.32.3-kubectl1.32.0-helm3.16.4-reg0.16.1-releasecli0.20.0]: /../../tree/0.9.0-docker27.5.0-compose2.32.3-kubectl1.32.0-helm3.16.4-reg0.16.1-releasecli0.20.0
 
-[Diff](/../../compare/0.9.0-docker27.4.1-compose2.32.2-kubectl1.32.0-helm3.16.4-reg0.16.1-releasecli0.20.0...0.9.0-docker27.4.1-compose2.32.3-kubectl1.32.0-helm3.16.4-reg0.16.1-releasecli0.20.0)
+[Diff](/../../compare/0.9.0-docker27.4.1-compose2.32.2-kubectl1.32.0-helm3.16.4-reg0.16.1-releasecli0.20.0...0.9.0-docker27.5.0-compose2.32.3-kubectl1.32.0-helm3.16.4-reg0.16.1-releasecli0.20.0)
 
 ### Upgraded
 
+- [Docker CLI] 27.5.0: <https://github.com/docker/cli/releases/tag/v27.5.0>
 - [Docker Compose] CLI 2.32.3: <https://github.com/docker/compose/releases/tag/v2.32.3>
 
 ### Security updated
