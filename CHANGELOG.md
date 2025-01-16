@@ -6,14 +6,15 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## [0.9.0-docker27.5.0-compose2.32.4-kubectl1.32.0-helm3.16.4-reg0.16.1-releasecli0.20.0] · 2025-01-16
-[0.9.0-docker27.5.0-compose2.32.4-kubectl1.32.0-helm3.16.4-reg0.16.1-releasecli0.20.0]: /../../tree/0.9.0-docker27.5.0-compose2.32.4-kubectl1.32.0-helm3.16.4-reg0.16.1-releasecli0.20.0
+## [0.9.0-docker27.5.0-compose2.32.4-kubectl1.32.0-helm3.17.0-reg0.16.1-releasecli0.20.0] · 2025-01-16
+[0.9.0-docker27.5.0-compose2.32.4-kubectl1.32.0-helm3.17.0-reg0.16.1-releasecli0.20.0]: /../../tree/0.9.0-docker27.5.0-compose2.32.4-kubectl1.32.0-helm3.17.0-reg0.16.1-releasecli0.20.0
 
-[Diff](/../../compare/0.9.0-docker27.5.0-compose2.32.3-kubectl1.32.0-helm3.16.4-reg0.16.1-releasecli0.20.0...0.9.0-docker27.5.0-compose2.32.4-kubectl1.32.0-helm3.16.4-reg0.16.1-releasecli0.20.0)
+[Diff](/../../compare/0.9.0-docker27.5.0-compose2.32.3-kubectl1.32.0-helm3.16.4-reg0.16.1-releasecli0.20.0...0.9.0-docker27.5.0-compose2.32.4-kubectl1.32.0-helm3.17.0-reg0.16.1-releasecli0.20.0)
 
 ### Upgraded
 
 - [Docker Compose] CLI 2.32.4: <https://github.com/docker/compose/releases/tag/v2.32.4>
+- [Helm] 3.17.0: <https://github.com/helm/helm/releases/tag/v3.17.0>
 
 
 
