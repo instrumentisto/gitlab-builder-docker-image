@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [0.9.0-docker27.5.0-compose2.32.4-kubectl1.32.1-helm3.17.0-reg0.16.1-releasecli0.21.0] · 2025-01-21
+[0.9.0-docker27.5.0-compose2.32.4-kubectl1.32.1-helm3.17.0-reg0.16.1-releasecli0.21.0]: /../../tree/0.9.0-docker27.5.0-compose2.32.4-kubectl1.32.1-helm3.17.0-reg0.16.1-releasecli0.21.0
+
+[Diff](/../../compare/0.9.0-docker27.5.0-compose2.32.4-kubectl1.32.1-helm3.17.0-reg0.16.1-releasecli0.20.0...0.9.0-docker27.5.0-compose2.32.4-kubectl1.32.1-helm3.17.0-reg0.16.1-releasecli0.21.0)
+
+### Upgraded
+
+- [GitLab Release CLI] 0.21.0: <https://gitlab.com/gitlab-org/release-cli/-/blob/v0.21.0/CHANGELOG.md#0210-2025-01-21>
+
+
+
+
 ## [0.9.0-docker27.5.0-compose2.32.4-kubectl1.32.1-helm3.17.0-reg0.16.1-releasecli0.20.0] · 2025-01-16
 [0.9.0-docker27.5.0-compose2.32.4-kubectl1.32.1-helm3.17.0-reg0.16.1-releasecli0.20.0]: /../../tree/0.9.0-docker27.5.0-compose2.32.4-kubectl1.32.1-helm3.17.0-reg0.16.1-releasecli0.20.0
 
