@@ -2,7 +2,7 @@ GitLab Builder Docker image
 ===========================
 
 [![Release](https://img.shields.io/github/v/release/instrumentisto/gitlab-builder-docker-image "Release")](https://github.com/instrumentisto/gitlab-builder-docker-image/releases)
-[![CI](https://github.com/instrumentisto/gitlab-builder-docker-image/workflows/CI/badge.svg?branch=main "CI")](https://github.com/instrumentisto/gitlab-builder-docker-image/actions?query=workflow%3ACI+branch%3Amain)
+[![CI](https://github.com/instrumentisto/gitlab-builder-docker-image/actions/workflows/ci.yml/badge.svg?branch=main "CI")](https://github.com/instrumentisto/gitlab-builder-docker-image/actions?query=workflow%3ACI+branch%3Amain)
 [![Docker Hub](https://img.shields.io/docker/pulls/instrumentisto/gitlab-builder?label=Docker%20Hub%20pulls "Docker Hub pulls")](https://hub.docker.com/r/instrumentisto/gitlab-builder)
 
 [Docker Hub](https://hub.docker.com/r/instrumentisto/gitlab-builder)
@@ -16,7 +16,7 @@ GitLab Builder Docker image
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`0.9.0-docker27.5.1-compose2.32.4-kubectl1.32.1-helm3.17.0-reg0.16.1-releasecli0.21.0`, `0.9.0`, `0.9`, `latest`][d1]
+- [`0.9.0-docker27.5.1-compose2.33.0-kubectl1.32.1-helm3.17.0-reg0.16.1-releasecli0.21.0`, `0.9.0`, `0.9`, `latest`][d1]
 
 
 
