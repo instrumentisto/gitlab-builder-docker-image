@@ -3,7 +3,7 @@
 #
 
 # https://gitlab.com/gitlab-org/release-cli/container_registry/
-ARG gitlab_release_cli_ver=0.22.0
+ARG gitlab_release_cli_ver=0.23.0
 FROM registry.gitlab.com/gitlab-org/release-cli:v${gitlab_release_cli_ver} \
   AS dist-release-cli
 
@@ -23,7 +23,7 @@ ARG docker_compose_ver=2.34.0
 ARG kubectl_ver=1.32.3
 ARG helm_ver=3.17.2
 ARG reg_ver=0.16.1
-ARG gitlab_release_cli_ver=0.22.0
+ARG gitlab_release_cli_ver=0.23.0
 
 
 # Install Bash, make, cURL, Git.
