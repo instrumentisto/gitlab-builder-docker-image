@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [0.9.0-docker28.1.1-compose2.35.1-kubectl1.32.4-helm3.17.3-reg0.16.1-releasecli0.23.0] · 2025-04-23
+[0.9.0-docker28.1.1-compose2.35.1-kubectl1.32.4-helm3.17.3-reg0.16.1-releasecli0.23.0]: /../../tree/0.9.0-docker28.1.1-compose2.35.1-kubectl1.32.4-helm3.17.3-reg0.16.1-releasecli0.23.0
+
+[Diff](/../../compare/0.9.0-docker28.1.1-compose2.35.1-kubectl1.32.3-helm3.17.3-reg0.16.1-releasecli0.23.0...0.9.0-docker28.1.1-compose2.35.1-kubectl1.32.4-helm3.17.3-reg0.16.1-releasecli0.23.0)
+
+### Upgraded
+
+- [Kubernetes CLI] 1.32.4: <https://github.com/kubernetes/kubernetes/blob/7bf818fb88a48f043441001cd48a771d5f2b1e0d/CHANGELOG/CHANGELOG-1.32.md#changelog-since-v1323>
+
+
+
+
 ## [0.9.0-docker28.1.1-compose2.35.1-kubectl1.32.3-helm3.17.3-reg0.16.1-releasecli0.23.0] · 2025-04-21
 [0.9.0-docker28.1.1-compose2.35.1-kubectl1.32.3-helm3.17.3-reg0.16.1-releasecli0.23.0]: /../../tree/0.9.0-docker28.1.1-compose2.35.1-kubectl1.32.3-helm3.17.3-reg0.16.1-releasecli0.23.0
 
