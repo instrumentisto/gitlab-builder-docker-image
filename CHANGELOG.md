@@ -6,13 +6,14 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## [0.9.0-docker28.2.2-compose2.36.2-kubectl1.33.1-helm3.18.1-reg0.16.1-releasecli0.24.0] · 2025-06-03
-[0.9.0-docker28.2.2-compose2.36.2-kubectl1.33.1-helm3.18.1-reg0.16.1-releasecli0.24.0]: /../../tree/0.9.0-docker28.2.2-compose2.36.2-kubectl1.33.1-helm3.18.1-reg0.16.1-releasecli0.24.0
+## [0.9.0-docker28.2.2-compose2.36.2-kubectl1.33.1-helm3.18.2-reg0.16.1-releasecli0.24.0] · 2025-06-03
+[0.9.0-docker28.2.2-compose2.36.2-kubectl1.33.1-helm3.18.2-reg0.16.1-releasecli0.24.0]: /../../tree/0.9.0-docker28.2.2-compose2.36.2-kubectl1.33.1-helm3.18.2-reg0.16.1-releasecli0.24.0
 
-[Diff](/../../compare/0.9.0-docker28.2.2-compose2.36.2-kubectl1.33.1-helm3.18.1-reg0.16.1-releasecli0.23.0...0.9.0-docker28.2.2-compose2.36.2-kubectl1.33.1-helm3.18.1-reg0.16.1-releasecli0.24.0)
+[Diff](/../../compare/0.9.0-docker28.2.2-compose2.36.2-kubectl1.33.1-helm3.18.1-reg0.16.1-releasecli0.23.0...0.9.0-docker28.2.2-compose2.36.2-kubectl1.33.1-helm3.18.2-reg0.16.1-releasecli0.24.0)
 
 ### Upgraded
 
+- [Helm] 3.18.2: <https://github.com/helm/helm/releases/tag/v3.18.2>
 - [GitLab Release CLI] 0.24.0: <https://gitlab.com/gitlab-org/release-cli/-/blob/v0.24.0/CHANGELOG.md#0240-2025-05-30>
 
 
