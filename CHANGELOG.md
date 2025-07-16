@@ -6,6 +6,17 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## main
+
+[Diff](/../../compare/0.9.0-docker28.3.2-compose2.38.2-kubectl1.33.2-helm3.18.4-reg0.16.1-releasecli0.24.0...main)
+
+### Security updated
+
+- [Alpine Linux] 3.22.1: <https://github.com/docker-library/official-images/commit/9411795f2a8ba13baa3be3ca4a7827170a445695>
+
+
+
+
 ## [0.9.0-docker28.3.2-compose2.38.2-kubectl1.33.2-helm3.18.4-reg0.16.1-releasecli0.24.0] · 2025-07-10
 [0.9.0-docker28.3.2-compose2.38.2-kubectl1.33.2-helm3.18.4-reg0.16.1-releasecli0.24.0]: /../../tree/0.9.0-docker28.3.2-compose2.38.2-kubectl1.33.2-helm3.18.4-reg0.16.1-releasecli0.24.0
 
