@@ -6,13 +6,14 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## [0.9.0-docker28.3.3-compose2.39.2-kubectl1.33.3-helm3.18.5-reg0.16.1-releasecli0.24.0] · 2025-08-14
-[0.9.0-docker28.3.3-compose2.39.2-kubectl1.33.3-helm3.18.5-reg0.16.1-releasecli0.24.0]: /../../tree/0.9.0-docker28.3.3-compose2.39.2-kubectl1.33.3-helm3.18.5-reg0.16.1-releasecli0.24.0
+## [0.9.0-docker28.3.3-compose2.39.2-kubectl1.33.4-helm3.18.5-reg0.16.1-releasecli0.24.0] · 2025-08-14
+[0.9.0-docker28.3.3-compose2.39.2-kubectl1.33.4-helm3.18.5-reg0.16.1-releasecli0.24.0]: /../../tree/0.9.0-docker28.3.3-compose2.39.2-kubectl1.33.4-helm3.18.5-reg0.16.1-releasecli0.24.0
 
-[Diff](/../../compare/0.9.0-docker28.3.3-compose2.39.2-kubectl1.33.3-helm3.18.4-reg0.16.1-releasecli0.24.0...0.9.0-docker28.3.3-compose2.39.2-kubectl1.33.3-helm3.18.5-reg0.16.1-releasecli0.24.0)
+[Diff](/../../compare/0.9.0-docker28.3.3-compose2.39.2-kubectl1.33.3-helm3.18.4-reg0.16.1-releasecli0.24.0...0.9.0-docker28.3.3-compose2.39.2-kubectl1.33.4-helm3.18.5-reg0.16.1-releasecli0.24.0)
 
 ### Upgraded
 
+- [Kubernetes CLI] 1.33.4: <https://github.com/kubernetes/kubernetes/blob/8311c1d3d700223d68d19ad6e4c53ec8e9434314/CHANGELOG/CHANGELOG-1.33.md#changelog-since-v1333>
 - [Helm] 3.18.5: <https://github.com/helm/helm/releases/tag/v3.18.5>
 
 
