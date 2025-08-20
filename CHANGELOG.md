@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [0.9.0-docker28.3.3-compose2.39.2-kubectl1.33.4-helm3.18.6-reg0.16.1-releasecli0.24.0] · 2025-08-20
+[0.9.0-docker28.3.3-compose2.39.2-kubectl1.33.4-helm3.18.6-reg0.16.1-releasecli0.24.0]: /../../tree/0.9.0-docker28.3.3-compose2.39.2-kubectl1.33.4-helm3.18.6-reg0.16.1-releasecli0.24.0
+
+[Diff](/../../compare/0.9.0-docker28.3.3-compose2.39.2-kubectl1.33.4-helm3.18.5-reg0.16.1-releasecli0.24.0...0.9.0-docker28.3.3-compose2.39.2-kubectl1.33.4-helm3.18.6-reg0.16.1-releasecli0.24.0)
+
+### Upgraded
+
+- [Helm] 3.18.6: <https://github.com/helm/helm/releases/tag/v3.18.6>
+
+
+
+
 ## [0.9.0-docker28.3.3-compose2.39.2-kubectl1.33.4-helm3.18.5-reg0.16.1-releasecli0.24.0] · 2025-08-14
 [0.9.0-docker28.3.3-compose2.39.2-kubectl1.33.4-helm3.18.5-reg0.16.1-releasecli0.24.0]: /../../tree/0.9.0-docker28.3.3-compose2.39.2-kubectl1.33.4-helm3.18.5-reg0.16.1-releasecli0.24.0
 
