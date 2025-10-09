@@ -15,6 +15,10 @@ All user visible changes to this project will be documented in this file. This p
 
 - [Docker CLI] 28.5.1: <https://github.com/docker/cli/releases/tag/v28.5.1>
 
+### Security updated
+
+- [Alpine Linux] 3.22.2: <https://github.com/docker-library/official-images/commit/fdacb511822ac9045ec7ec066c1228f94291139f>
+
 
 
 
