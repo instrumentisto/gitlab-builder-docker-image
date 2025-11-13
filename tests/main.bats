@@ -119,9 +119,6 @@
 }
 
 @test "helm has correct version" {
-  # TODO: Remove on upgrading to next Helm version.
-  skip "Incorrect version released in upstream"
-
   run sh -c "grep 'ARG helm_ver=' Dockerfile | cut -d '=' -f2"
   [ "$status" -eq 0 ]
   [ ! "$output" = '' ]
@@ -135,17 +132,6 @@
   actual="$output"
 
   [ "$actual" = "$expected" ]
-}
-
-@test "contains helm-push plugin" {
-  run docker run --rm --pull never $IMAGE sh -c \
-    'helm plugin list | grep -e "^cm-push\t"'
-  [ "$status" -eq 0 ]
-}
-
-@test "helm-push plugin runs ok" {
-  run docker run --rm --pull never $IMAGE helm cm-push --help
-  [ "$status" -eq 0 ]
 }
 
 
