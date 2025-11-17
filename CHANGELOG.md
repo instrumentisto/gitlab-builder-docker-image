@@ -6,10 +6,10 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## [0.10.0-docker29.0.0-compose2.40.3-kubectl1.34.2-helm4.0.0-reg0.16.1-releasecli0.24.0] · 2025-11-13
-[0.10.0-docker29.0.0-compose2.40.3-kubectl1.34.2-helm4.0.0-reg0.16.1-releasecli0.24.0]: /../../tree/0.10.0-docker29.0.0-compose2.40.3-kubectl1.34.2-helm4.0.0-reg0.16.1-releasecli0.24.0
+## [0.10.0-docker29.0.1-compose2.40.3-kubectl1.34.2-helm4.0.0-reg0.16.1-releasecli0.24.0] · 2025-11-17
+[0.10.0-docker29.0.1-compose2.40.3-kubectl1.34.2-helm4.0.0-reg0.16.1-releasecli0.24.0]: /../../tree/0.10.0-docker29.0.1-compose2.40.3-kubectl1.34.2-helm4.0.0-reg0.16.1-releasecli0.24.0
 
-[Diff](/../../compare/0.9.0-docker29.0.0-compose2.40.3-kubectl1.34.2-helm3.19.2-reg0.16.1-releasecli0.24.0...0.10.0-docker29.0.0-compose2.40.3-kubectl1.34.2-helm4.0.0-reg0.16.1-releasecli0.24.0)
+[Diff](/../../compare/0.9.0-docker29.0.0-compose2.40.3-kubectl1.34.2-helm3.19.2-reg0.16.1-releasecli0.24.0...0.10.0-docker29.0.1-compose2.40.3-kubectl1.34.2-helm4.0.0-reg0.16.1-releasecli0.24.0)
 
 ### BC Breaks
 
@@ -17,6 +17,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
+- [Docker CLI] 29.0.1: <https://github.com/docker/cli/releases/tag/v29.0.1>
 - [Helm] 4.0.0: <https://github.com/helm/helm/releases/tag/v4.0.0>
 
 
