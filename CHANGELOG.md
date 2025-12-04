@@ -6,10 +6,21 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## main
+
+[Diff](/../../compare/0.11.0-docker29.1.2-compose5.0.0-kubectl1.34.2-helm4.0.1-reg0.16.1-releasecli0.24.0...main)
+
+### Upgraded
+
+- [Alpine Linux] 3.23: <https://www.alpinelinux.org/posts/Alpine-3.23.0-released.html>
+
+
+
+
 ## [0.11.0-docker29.1.2-compose5.0.0-kubectl1.34.2-helm4.0.1-reg0.16.1-releasecli0.24.0] · 2025-12-03
 [0.11.0-docker29.1.2-compose5.0.0-kubectl1.34.2-helm4.0.1-reg0.16.1-releasecli0.24.0]: /../../tree/0.11.0-docker29.1.2-compose5.0.0-kubectl1.34.2-helm4.0.1-reg0.16.1-releasecli0.24.0
 
-[Diff](/../../compare/0.11.0-docker29.1.1-compose5.0.0-kubectl1.34.2-helm4.0.1-reg0.16.1-releasecli0.24.0...0.11.0-docker29.1.2-compose5.0.0-kubectl1.34.2-helm4.0.1-reg0.16.1-releasecli0¬.24.0)
+[Diff](/../../compare/0.11.0-docker29.1.1-compose5.0.0-kubectl1.34.2-helm4.0.1-reg0.16.1-releasecli0.24.0...0.11.0-docker29.1.2-compose5.0.0-kubectl1.34.2-helm4.0.1-reg0.16.1-releasecli0.24.0)
 
 ### Upgraded
 
