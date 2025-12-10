@@ -6,12 +6,14 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## main
+## [0.12.0-docker29.1.2-compose5.0.0-kubectl1.34.3-helm4.0.1-reg0.16.1-releasecli0.24.0] · 2025-12-10
+[0.12.0-docker29.1.2-compose5.0.0-kubectl1.34.3-helm4.0.1-reg0.16.1-releasecli0.24.0]: /../../tree/0.12.0-docker29.1.2-compose5.0.0-kubectl1.34.3-helm4.0.1-reg0.16.1-releasecli0.24.0
 
-[Diff](/../../compare/0.11.0-docker29.1.2-compose5.0.0-kubectl1.34.2-helm4.0.1-reg0.16.1-releasecli0.24.0...main)
+[Diff](/../../compare/0.11.0-docker29.1.2-compose5.0.0-kubectl1.34.2-helm4.0.1-reg0.16.1-releasecli0.24.0...0.12.0-docker29.1.2-compose5.0.0-kubectl1.34.3-helm4.0.1-reg0.16.1-releasecli0.24.0)
 
 ### Upgraded
 
+- [Kubernetes CLI] 1.34.3: <https://github.com/kubernetes/kubernetes/blob/f887a29fe220c1013ae09699bb301040beb5c86e/CHANGELOG/CHANGELOG-1.34.md#changelog-since-v1342>
 - [Alpine Linux] 3.23: <https://www.alpinelinux.org/posts/Alpine-3.23.0-released.html>
 
 
