@@ -16,6 +16,10 @@ All user visible changes to this project will be documented in this file. This p
 - [Docker Compose] CLI 5.0.1: <https://github.com/docker/compose/releases/tag/v5.0.1>
 - [Kubernetes CLI] 1.35.0: <https://github.com/kubernetes/kubernetes/blob/92d5eb1175391aa3be9f1d23fdda4403bc3468a9/CHANGELOG/CHANGELOG-1.35.md#changelog-since-v1340>
 
+### Security updated
+
+- [Alpine Linux] 3.23.2: <https://github.com/docker-library/official-images/commit/3159434b3c3d42e64dcbc7364d0031abe92210a3>
+
 
 
 
