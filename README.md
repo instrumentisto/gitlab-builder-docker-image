@@ -16,7 +16,7 @@ GitLab Builder Docker image
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`0.12.10-docker29.2.0-compose5.0.2-kubectl1.35.1-helm4.1.0-reg0.16.1-releasecli0.24.0`, `0.12.10`, `0.12`, `latest`][d1]
+- [`0.12.11-docker29.2.1-compose5.0.2-kubectl1.35.1-helm4.1.0-reg0.16.1-releasecli0.24.0`, `0.12.10`, `0.12`, `latest`][d1]
 
 
 
