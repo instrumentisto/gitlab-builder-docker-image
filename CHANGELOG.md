@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [0.12.13-docker29.2.1-compose5.0.2-kubectl1.35.1-helm4.1.1-reg0.16.1-releasecli0.24.0] · 2026-02-11
+[0.12.13-docker29.2.1-compose5.0.2-kubectl1.35.1-helm4.1.1-reg0.16.1-releasecli0.24.0]: /../../tree/0.12.13-docker29.2.1-compose5.0.2-kubectl1.35.1-helm4.1.1-reg0.16.1-releasecli0.24.0
+
+[Diff](/../../compare/0.12.12-docker29.2.1-compose5.0.2-kubectl1.35.0-helm4.1.1-reg0.16.1-releasecli0.24.0...0.12.13-docker29.2.1-compose5.0.2-kubectl1.35.1-helm4.1.1-reg0.16.1-releasecli0.24.0)
+
+### Upgraded
+
+- [Kubernetes CLI] 1.35.1: <https://github.com/kubernetes/kubernetes/blob/699d840eb8a912a693993f9887440f14eccbd738/CHANGELOG/CHANGELOG-1.35.md#changelog-since-v1350>
+
+
+
+
 ## [0.12.12-docker29.2.1-compose5.0.2-kubectl1.35.0-helm4.1.1-reg0.16.1-releasecli0.24.0] · 2026-02-10
 [0.12.12-docker29.2.1-compose5.0.2-kubectl1.35.0-helm4.1.1-reg0.16.1-releasecli0.24.0]: /../../tree/0.12.12-docker29.2.1-compose5.0.2-kubectl1.35.0-helm4.1.1-reg0.16.1-releasecli0.24.0
 
